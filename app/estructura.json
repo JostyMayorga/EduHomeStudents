@@ -1,0 +1,669 @@
+{
+"representantes": {
+		"ULkcfwOT8KUx5YspqUZKncNVCF12": {
+            "id": "ULkcfwOT8KUx5YspqUZKncNVCF12",
+			"nombres": "José Ricardo",
+            "apellidos": "Gimenez Acosta",
+            "genero": "m",
+			"fotoPerfil": "http://www.quo.es/var/quo/storage/images/ser-humano/son-los-profesores-de-matematicas-una-especie-en-extincion/1280438-1-esl-ES/profesores-de-matematicas-son-una-especie-en-extincion_full_landscape.jpg",
+            "cursos" :[
+                {
+                "id": 1,
+                "nombre": "Matemáticas",
+                "imagen": "",
+                "color": "#5bbcb7",
+                "tareasID": [ {
+                    "id": 1,
+            "descripcion": "Repasar el ultimo capítulo del libro, revisado en clases",
+            "fotoUrl": "",
+            "archivoPath": "",
+            "color": "#5bbcb7",
+            "fechaEntrega": 1541826000000,
+            "revisado": false,
+            "titulo": "Leccion"
+        } ],
+                "profesor": {
+                    "titulo": "Lcdo",
+                    "nombres": "Joel Ricardo",
+                    "apellidos": "Collahuazo Vaca"
+                }
+            }, {
+                "id": 2,
+                "nombre": "Lenguaje y Literatura",
+                "imagen": "",
+                "color": "#243a3a",
+                "tareasID": [ {
+                    "id":1,
+            "descripcion": "Repasar las páginas 20-22 del libro para la lección.",
+            "fotoUrl": "",
+            "archivoPath": "",
+            "color": "#243a3a",
+            "fechaEntrega": 1541826000000,
+            "revisado": false,
+            "titulo": "Lección proxima clase"
+
+        }, {
+            "id": 2,
+            "descripcion": "Traer el cuaderno completo y firmado por el representante",
+            "fotoUrl": "",
+            "archivoPath": "",
+            "color": "#243a3a",
+            "fechaEntrega": 1541826000000,
+            "revisado": false,
+            "titulo": "Revisión"
+        }],
+                "profesor": {
+                    "titulo": "Lcdo",
+                    "nombres": "Kevin Rafael",
+                    "apellidos": "Santacruz Burgos"
+                }
+            }, 
+            {
+                "id": 3,
+                "nombre": "Ciencias Naturales",
+                "imagen": "",
+                "color": "#8f05e8",
+                "tareasID": [ {
+                    "id":1,
+            "descripcion": "Traer los materiales solicitados en clase.",
+            "fotoUrl": "",
+            "archivoPath": "",
+            "color": "#8f05e8",
+            "fechaEntrega": 1541826000000,
+            "revisado": false,
+            "titulo": "Recordatorio"
+
+        } ],
+                "profesor": {
+                    "titulo": "Lcdo",
+                    "nombres": "Joel Ricardo",
+                    "apellidos": "Collahuazo Vaca"
+                }
+            },
+
+            {
+                "id": 4,
+                "nombre": "Emprendimiento",
+                "imagen": "",
+                "color": "#f7996b",
+                "tareasID": [ {
+                    "id":1,
+            "descripcion": "Todos los grupos deben traer sus materiales para ralizar el trabajo en la siguiente clase.",
+            "fotoUrl": "",
+            "archivoPath": "",
+            "color": "#f7996b",
+            "fechaEntrega": 1541826000000,
+            "revisado": false,
+            "titulo": "Trabajo en grupo"
+
+        } ],
+                "profesor": {
+                    "titulo": "Lcdo",
+                    "nombres": "Joel Ricardo",
+                    "apellidos": "Collahuazo Vaca"
+                }
+            }
+        
+        ]
+        },
+
+		"mnqlgrPCJEYuYBBsZZvQBRnxmUy1": {
+            "id": "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "nombres": "Andrea Doménica",
+            "apellidos": "Valarezo Paz",
+            "genero": "f",
+			"fotoPerfil": "http://umc.minedu.gob.pe/wp-content/uploads/2017/07/image_nota.jpg",
+			"cursos" :[
+                {
+                "id": 1,
+                "nombre": "Matemáticas",
+                "imagen": "",
+                "color": "#5bbcb7",
+                "tareasID": [ {
+                    "id": 1,
+            "descripcion": "Repasar el ultimo capítulo del libro, revisado en clases",
+            "fotoUrl": "",
+            "archivoPath": "",
+            "color": "#5bbcb7",
+            "fechaEntrega": 1541826000000,
+            "revisado": false,
+            "titulo": "Leccion"
+        } ]
+            }, {
+                "id": 2,
+                "nombre": "Lenguaje y Literatura",
+                "imagen": "",
+                "color": "#243a3a",
+                "tareasID": [ {
+                    "id":1,
+            "descripcion": "Repasar las páginas 20-22 del libro para la lección.",
+            "fotoUrl": "",
+            "archivoPath": "",
+            "color": "#243a3a",
+            "fechaEntrega": 1541826000000,
+            "revisado": false,
+            "titulo": "Lección proxima clase"
+
+        }, {
+            "id": 2,
+            "descripcion": "Traer el cuaderno completo y firmado por el representante",
+            "fotoUrl": "",
+            "archivoPath": "",
+            "color": "#243a3a",
+            "fechaEntrega": 1541826000000,
+            "revisado": false,
+            "titulo": "Revisión"
+        }]
+            }, 
+            {
+                "id": 3,
+                "nombre": "Ciencias Naturales",
+                "imagen": "",
+                "color": "#8f05e8",
+                "tareasID": [ {
+                    "id":1,
+            "descripcion": "Traer los materiales solicitados en clase.",
+            "fotoUrl": "",
+            "archivoPath": "",
+            "color": "#8f05e8",
+            "fechaEntrega": 1541825000000,
+            "revisado": false,
+            "titulo": "Recordatorio"
+
+        } ]
+            },
+            {
+                "id": 4,
+                "nombre": "Emprendimiento",
+                "imagen": "",
+                "color": "#f7996b",
+                "tareasID": [ {
+                    "id":1,
+            "descripcion": "Todos los grupos deben traer sus materiales para ralizar el trabajo en la siguiente clase.",
+            "fotoUrl": "",
+            "archivoPath": "",
+            "color": "#f7996b",
+            "fechaEntrega": 1541820000000,
+            "revisado": false,
+            "titulo": "Trabajo en grupo"
+
+        } ]
+            },
+            {
+                "id": 5,
+                "nombre": "Estudios Sociales",
+                "imagen": "",
+                "color": "#aa7100",
+                "tareasID": [ {
+                    "id":1,
+            "descripcion": "Revisión del libro para la siguiente clase.",
+            "fotoUrl": "",
+            "archivoPath": "",
+            "color": "#aa7100",
+            "fechaEntrega": 1541810000000,
+            "revisado": false,
+            "titulo": "Revisión del libro"
+
+        } ]
+            },
+            {
+                "id": 6,
+                "nombre": "Educación Cultural",
+                "imagen": "",
+                "color": "#f9ae06",
+                "tareasID": [ {
+                    "id":1,
+            "descripcion": "Revisión de los materiales para la practica.",
+            "fotoUrl": "",
+            "archivoPath": "",
+            "color": "#f9ae06",
+            "fechaEntrega": 1541710000000,
+            "revisado": false,
+            "titulo": "Trabajo de manualidades"
+            
+        } ]
+            }
+        
+        ]
+		}
+    },
+
+"profesores": {
+        "mnqlgrPCJEYuYBBsZZvQBRnxmUy1": {
+            "id": "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+			"nombres": "Joan Vicente",
+			"apellidos": "Fernandez Soledispa",
+			"fotoPerfil": "https://www.colegioagorabarcelona.es/wp-content/uploads/sites/2/2018/01/Lorenzo-Fresno-agora-is-barcelona.jpg",
+            "cursos" :[
+                {
+                "id": 1,
+                "curso": "5to 'A'",
+                "nombre": "Matemáticas",
+                "imagen": "",
+                "color": "#5bbcb7"
+            }, {
+                "id": 2,
+                "curso": "5to 'A'",
+                "nombre": "Lenguaje y Literatura",
+                "imagen": "",
+                "color": "#243a3a"
+            }, {
+                "id": 3,
+                "curso": "5to 'A'",
+                "nombre": "Ciencias Naturales",
+                "imagen": "",
+                "color": "#8f05e8"
+            }]
+        },
+
+        "NrwKuwDclJT19Nivci91OuaTdoZ2": {
+            "id": "NrwKuwDclJT19Nivci91OuaTdoZ2",
+			"nombres": "Miguel Ángel",
+			"apellidos": "Burguete García",
+			"fotoPerfil": "http://biendateao.com/wp-content/uploads/2017/03/eduardo-parra.jpg",
+            "cursos" :[
+                {
+                "id": 1,
+                "curso": "5to 'A'",
+                "nombre": "Emprendimiento",
+                "imagen": "",
+                "color": "#5bbcb7"
+            }, {
+                "id": 2,
+                "curso": "5to 'A'",
+                "nombre": "Ciencias Sociales",
+                "imagen": "",
+                "color": "#243a3a"
+            }]
+        }
+    },
+
+    "listadoProfesores": {
+        "ULkcfwOT8KUx5YspqUZKncNVCF12":[{
+        "id": "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+        "idChat": "-LJbUWk5ftydrGMufEHh",
+        "nombres": "Joan Vicente",
+		"apellidos": "Fernandez Soledispa",
+		"fotoPerfil": "https://www.colegioagorabarcelona.es/wp-content/uploads/sites/2/2018/01/Lorenzo-Fresno-agora-is-barcelona.jpg",
+        "materia": "Matemáticas",
+        "color": "#5bbcb7",
+        "idCurso":"1"
+        },
+        {
+            "id": "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "idChat": "-LJbUWk6ftydrGMufEHh",
+            "nombres": "Joan Vicente",
+			"apellidos": "Fernandez Soledispa",
+			"fotoPerfil": "https://www.colegioagorabarcelona.es/wp-content/uploads/sites/2/2018/01/Lorenzo-Fresno-agora-is-barcelona.jpg",
+            "materia": "Lenguaje y Literatura",
+            "color": "#243a3a",
+            "idCurso":"2"
+
+        },
+        {
+            "id": "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "idChat": "-LJbUWk7ftydrGMufEHh",
+            "nombres": "Joan Vicente",
+			"apellidos": "Fernandez Soledispa",
+			"fotoPerfil": "https://www.colegioagorabarcelona.es/wp-content/uploads/sites/2/2018/01/Lorenzo-Fresno-agora-is-barcelona.jpg",
+            "materia": "Ciencias Naturales",
+            "color": "#8f05e8",
+            "idCurso":"3"
+        }],
+
+        "mnqlgrPCJEYuYBBsZZvQBRnxmUy1":[{
+        "id": "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+        "idChat": "-LJbUWk8ftydrGMufEHh",
+        "nombres": "Joan Vicente",
+		"apellidos": "Fernandez Soledispa",
+		"fotoPerfil": "http://biendateao.com/wp-content/uploads/2017/03/eduardo-parra.jpg",
+        "materia": "Matemáticas",
+        "color": "#5bbcb7",
+        "idCurso":"1"
+        },
+        {
+            "id": "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "idChat": "-LJbUWk9ftydrGMufEHh",
+            "nombres": "Joan Vicente",
+			"apellidos": "Fernandez Soledispa",
+			"fotoPerfil": "http://biendateao.com/wp-content/uploads/2017/03/eduardo-parra.jpg",
+            "materia": "Lenguaje y Literatura",
+            "color": "#243a3a",
+            "idCurso":"2"
+
+        },
+        {
+            "id": "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "idChat": "-LJbUWk0ftydrGMufEHh",
+            "nombres": "Miguel Ángel",
+			"apellidos": "Burguete García",
+			"fotoPerfil": "http://www.cronicadelnoa.com.ar/web/wp-content/uploads/2013/12/zottos_carnet.jpg",
+            "materia": "Ciencias Naturales",
+            "color": "#8f05e8",
+            "idCurso":"3"
+
+        }, 
+
+        {
+            "id": "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "idChat": "-LJbUWk1ftydrGMufEHh",
+            "nombres": "Cuéllar",
+			"apellidos": "Avendaño Patricia",
+			"fotoPerfil": " http://www.celoriu.com/wp-content/uploads/2011/05/Dolores-Fondo-blanco.jpg",
+            "materia": "Emprendimiento",
+            "color": "#f7996b",
+            "idCurso":"4"
+
+        },
+        {
+            "id": "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "idChat": "-LJbUWk2ftydrGMufEHh",
+            "nombres": "Cuéllar",
+			"apellidos": "Avendaño Patricia",
+			"fotoPerfil": " http://www.celoriu.com/wp-content/uploads/2011/05/Dolores-Fondo-blanco.jpg",
+            "materia": "Estudios Sociales",
+            "color": "#aa7100",
+            "idCurso":"5"
+
+        },
+        {
+            "id": "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "idChat": "-LJbUWk3ftydrGMufEHh",
+            "nombres": "Cuéllar",
+			"apellidos": "Avendaño Patricia",
+			"fotoPerfil": " http://www.celoriu.com/wp-content/uploads/2011/05/Dolores-Fondo-blanco.jpg",
+            "materia": "Educación Cultural",
+            "color": "#f9ae06",
+            "idCurso":"6"
+
+        }
+       ]
+
+    },
+
+    "listadoRepresentantes": {
+        "1":[{
+        "id": "ULkcfwOT8KUx5YspqUZKncNVCF12",
+        "idChat": "-LJbUWk5ftydrGMufEHh",
+        "nombres": "José Ricardo",
+        "apellidos": "Gimenez Acosta",
+        "foto": "http://www.quo.es/var/quo/storage/images/ser-humano/son-los-profesores-de-matematicas-una-especie-en-extincion/1280438-1-esl-ES/profesores-de-matematicas-son-una-especie-en-extincion_full_landscape.jpg",
+        "materia": "Matemáticas",
+        "color": "#5bbcb7",
+        "idCurso":"1"
+        },
+        {
+            "id": "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "idChat": "-LJbUWk8ftydrGMufEHh",
+            "nombres": "Andrea Doménica",
+            "apellidos": "Valarezo Paz",
+            "foto": "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg",
+            "materia": "Matemáticas",
+            "color": "#5bbcb7",
+            "idCurso":"1"
+
+        }],
+
+        "2":[{
+        "id": "ULkcfwOT8KUx5YspqUZKncNVCF12",
+        "idChat": "-LJbUWk6ftydrGMufEHh",
+        "nombres": "José Ricardo",
+        "apellidos": "Gimenez Acosta",
+        "foto": "http://www.quo.es/var/quo/storage/images/ser-humano/son-los-profesores-de-matematicas-una-especie-en-extincion/1280438-1-esl-ES/profesores-de-matematicas-son-una-especie-en-extincion_full_landscape.jpg",
+        "materia": "Lenguaje y Literatura",
+            "color": "#243a3a",
+            "idCurso":"2"
+        },
+        {
+            "id": "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "idChat": "-LJbUWk9ftydrGMufEHh",
+            "nombres": "Andrea Doménica",
+            "apellidos": "Valarezo Paz",
+            "foto": "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg",
+            "materia": "Lenguaje y Literatura",
+            "color": "#243a3a",
+            "idCurso":"2"
+
+        }],
+
+
+        "3":[{
+        "id": "ULkcfwOT8KUx5YspqUZKncNVCF12",
+        "idChat": "-LJbUWk7ftydrGMufEHh",
+        "nombres": "José Ricardo",
+        "apellidos": "Gimenez Acosta",
+        "foto": "http://www.quo.es/var/quo/storage/images/ser-humano/son-los-profesores-de-matematicas-una-especie-en-extincion/1280438-1-esl-ES/profesores-de-matematicas-son-una-especie-en-extincion_full_landscape.jpg",
+        "materia": "Ciencias Naturales",
+            "color": "#8f05e8",
+            "idCurso":"3"
+        },
+        {
+            "id": "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "idChat": "-LJbUWk0ftydrGMufEHh",
+            "nombres": "Andrea Doménica",
+            "apellidos": "Valarezo Paz",
+            "foto": "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg",
+            "materia": "Ciencias Naturales",
+            "color": "#8f05e8",
+            "idCurso":"3"
+
+        }]
+
+    }
+    ,
+
+    "listado": [
+        {"id":"ULkcfwOT8KUx5YspqUZKncNVCF12",
+            "idChat": "-LJbUWk5ftydrGMufEHh",
+            "nombres": "José Ricardo",
+        "apellidos": "Gimenez Acosta",
+        "foto": "http://www.quo.es/var/quo/storage/images/ser-humano/son-los-profesores-de-matematicas-una-especie-en-extincion/1280438-1-esl-ES/profesores-de-matematicas-son-una-especie-en-extincion_full_landscape.jpg"
+    }
+        ,{"id":"mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "idChat": "-LJbUWk6ftydrGMufEHh",
+            "nombres": "Andrea Doménica",
+            "apellidos": "Valarezo Paz",
+            "foto": "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg"}
+
+        ,{"id":"mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "idChat": "-LJbUWk6ftydrGMufEHh",
+            "nombres": "Juan Manuel",
+            "apellidos": "Díaz Núñez",
+            "foto": "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg"}
+        
+        ,{"id":"mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "idChat": "-LJbUWk6ftydrGMufEHh",
+            "nombres": "Jorge Armando",
+            "apellidos": "Elizalde Herrera",
+            "foto": "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg"}
+        ,{"id":"mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "idChat": "-LJbUWk6ftydrGMufEHh",
+            "nombres": "Delia",
+            "apellidos": "Espinosa Hernández",
+            "foto": "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg"}
+
+        ,{"id":"mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "idChat": "-LJbUWk6ftydrGMufEHh",
+            "nombres": "Norma Nelia",
+            "apellidos": "Figueroa Salmorán",
+            "foto": "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg"}
+        
+        ,{"id":"mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "idChat": "-LJbUWk6ftydrGMufEHh",
+            "nombres": "Carlos Porfirio",
+            "apellidos": "Fuentes Mena",
+            "foto": "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg"}
+
+        ,{"id":"mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "idChat": "-LJbUWk6ftydrGMufEHh",
+            "nombres": "Alba Lorenia",
+            "apellidos": "Galaviz Ramírez",
+            "foto": "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg"}
+
+        ,{"id":"mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "idChat": "-LJbUWk6ftydrGMufEHh",
+            "nombres": "Mario Alberto",
+            "apellidos": "García García",
+            "foto": "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg"}
+
+        ,{"id":"mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "idChat": "-LJbUWk6ftydrGMufEHh",
+            "nombres": "Mario Alberto",
+            "apellidos": "García García",
+            "foto": "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg"}
+
+        ,{"id":"mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "idChat": "-LJbUWk6ftydrGMufEHh",
+            "nombres": "José Antonio",
+            "apellidos": "Bermúdez Manrique",
+            "foto": "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg"}
+
+        ,{"id":"mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "idChat": "-LJbUWk6ftydrGMufEHh",
+            "nombres": "Marisol",
+            "apellidos": "Castañeda Pérez",
+            "foto": "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg"}
+
+
+        ,{"id":"mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "idChat": "-LJbUWk6ftydrGMufEHh",
+            "nombres": "Nicéforo",
+            "apellidos": "Cantú Garza",
+            "foto": "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg"}
+
+        ,{"id":"mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "idChat": "-LJbUWk6ftydrGMufEHh",
+            "nombres": "Dante Adrián",
+            "apellidos": "Camarillo Palafox",
+            "foto": "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg"}
+
+        ,{"id":"mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "idChat": "-LJbUWk6ftydrGMufEHh",
+            "nombres": "Guillermo",
+            "apellidos": "Bacab Pech",
+            "foto": "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg"}
+
+        ,{"id":"mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "idChat": "-LJbUWk6ftydrGMufEHh",
+            "nombres": "Sandra Walkyria",
+            "apellidos": "Ayala Jiménez",
+            "foto": "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg"}
+
+         
+    ],
+
+    "cantidadTareasCurso" : [
+        {"id": 1, "cantidad": 1},
+        {"id": 2, "cantidad": 2},
+        {"id":3, "cantidad":1},
+        {"id":4, "cantidad":1},
+        {"id": 5, "cantidad":1},
+        {"id": 6, "cantidad":1}
+    ],
+
+    "Chats" : {
+        "-LJbUWk0ftydrGMufEHh" : {
+        "-LJddA__nR4WbAc20VZF" : {
+            "date" : -1534001984163,
+            "from" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "message" : "Hola, el dia de mñn me puede atender?",
+            "to" : "-LJbUWk0ftydrGMufEHh"
+        }
+        },
+        "-LJbUWk5ftydrGMufEHh" : {
+        "-LJdeGPsxd5tB-jLpEcX" : {
+            "date" : -1534002270198,
+            "from" : "ULkcfwOT8KUx5YspqUZKncNVCF12",
+            "message" : "Hola, me puede ayudar con el ultimo capitulo visto en clases? Gracias 🤗",
+            "to" : "-LJbUWk5ftydrGMufEHh"
+        },
+        "-LJdmzJfDxQzysW0zKXA" : {
+            "date" : -1534004555597,
+            "from" : "",
+            "message" : "Hola si claro el 2 se reviso en clases",
+            "to" : "-LJbUWk5ftydrGMufEHh"
+        },
+        "-LJdnAjlooBonzcp4Shn" : {
+            "date" : -1534004606483,
+            "from" : "ULkcfwOT8KUx5YspqUZKncNVCF12",
+            "message" : "gracias",
+            "to" : "-LJbUWk5ftydrGMufEHh"
+        }
+        },
+        "-LJbUWk6ftydrGMufEHh" : {
+        "-LJiUo30ResKcytyJvH4" : {
+            "date" : -1534083415454,
+            "from" : "ULkcfwOT8KUx5YspqUZKncNVCF12",
+            "message" : "Hola",
+            "to" : "-LJbUWk6ftydrGMufEHh"
+        },
+        "-LJiUrLZtMDInd8BaC7U" : {
+            "date" : -1534083428928,
+            "from" : "ULkcfwOT8KUx5YspqUZKncNVCF12",
+            "message" : "El cuaderno al dia📚",
+            "to" : "-LJbUWk6ftydrGMufEHh"
+        },
+        "-LJiUsiVKdlLo-OcizVt" : {
+            "date" : -1534083434557,
+            "from" : "ULkcfwOT8KUx5YspqUZKncNVCF12",
+            "message" : "debe ser firmado?",
+            "to" : "-LJbUWk6ftydrGMufEHh"
+        },
+        "-LJiVTRE2pTCxD2qfS-s" : {
+            "date" : -1534083589036,
+            "from" : "",
+            "message" : "Hola",
+            "to" : "-LJbUWk6ftydrGMufEHh"
+        },
+        "-LJiVYWi1AT05D91aD0m" : {
+            "date" : -1534083609867,
+            "from" : "",
+            "message" : "Si debe ser firmado",
+            "to" : "-LJbUWk6ftydrGMufEHh"
+        }
+        },
+        "-LJbUWk7ftydrGMufEHh" : {
+        "-LJiUivWD0vceZGXDcd1" : {
+            "date" : -1534083394428,
+            "from" : "ULkcfwOT8KUx5YspqUZKncNVCF12",
+            "message" : "Hola Me gustaria saber que materiales hay que llevar",
+            "to" : "-LJbUWk7ftydrGMufEHh"
+        }
+        },
+        "-LJbUWk8ftydrGMufEHh" : {
+        "-LJdcFYOmRhwNmGD6UVt" : {
+            "date" : -1534001742352,
+            "from" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "message" : "Mensaje 📲",
+            "to" : "-LJbUWk8ftydrGMufEHh"
+        }
+        },
+        "-LJbUWk9ftydrGMufEHh" : {
+        "-LJdd6GmC1UQSCTtN93X" : {
+            "date" : -1534001966512,
+            "from" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "message" : "Hola, la tarea del libro no esta clara",
+            "to" : "-LJbUWk9ftydrGMufEHh"
+        },
+        "-LJiVD9qqhq2axHL1vR1" : {
+            "date" : -1534083522387,
+            "from" : "",
+            "message" : "Hola",
+            "to" : "-LJbUWk9ftydrGMufEHh"
+        },
+        "-LJiVJBZ3dEX5XTkTvZx" : {
+            "date" : -1534083547074,
+            "from" : "",
+            "message" : "Deben realizar el capitulo 5",
+            "to" : "-LJbUWk9ftydrGMufEHh"
+        },
+        "-LJiVkSHmSMXRpYZSGED" : {
+            "date" : -1534083662831,
+            "from" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+            "message" : "Muchas gracias 😄",
+            "to" : "-LJbUWk9ftydrGMufEHh"
+        }
+        }
+    }
+}
+

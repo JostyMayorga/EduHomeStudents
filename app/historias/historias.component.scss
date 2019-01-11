@@ -1,0 +1,74 @@
+.foto-perfil {
+    width:60; height:60; border-radius:50%;
+}
+.nombre-representate {
+    color: white;
+    font-size: 15;
+}
+.estado {
+    color: #f7bb43;
+    font-size: 12;
+    font-weight: bold;
+}
+ActionBar {
+    background-color:  #ff9100;
+    color: white;
+    padding: 0 0 0 0;
+    height: 15%;
+}
+
+DockLayout {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.text-white label{
+    color:white;
+    font-size: 20;
+}
+.text-white {
+    text-align: left;
+}
+
+.img-personaje {
+    margin-left: 50;
+    height: 80%;
+}
+
+.btn-primary {
+    background-color: #FF9100;
+    border-radius: 5;
+    text-transform: capitalize;
+}
+
+.imgChapter{
+    height: 70%;
+    margin-top:15%;
+}
+
+.imgPlay{
+    height: 30%;
+    margin-top:35%;
+}
+
+.imgPlay{
+    height: 30%;
+    margin-top:35%;
+}
+
+.imgLock{
+    height: 70%;
+    margin-top:15%;
+}
+.progressbar {
+    height: 20;
+    margin-left: -20;
+    margin-top:10;
+    width: 90%;
+    border-radius: 2;
+    background: #96b3cc;
+    border-color: white;
+    border-width: 1;
+}
+.progressbar-value {
+    background: #477bbb;
+}

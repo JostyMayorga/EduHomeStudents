@@ -1,0 +1,77 @@
+.page {
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+  }
+  .form {
+    margin-left: 30;
+    margin-right: 30;
+    flex-grow: 2;
+    vertical-align: middle;
+  }
+  
+  .logo {
+    margin-bottom: 20;
+    height: 140;
+    font-weight: bold;
+  }
+  .header {
+    horizontal-align: center;
+    font-size: 25;
+    font-weight: 600;
+    margin-bottom: 70;
+    text-align: center;
+    color: white;
+  }
+
+  .home {
+    color:#FF9100;
+  }
+  .input:disabled {
+    background-color: red;
+    opacity: 0.5;
+  }
+  
+  .btn-primary {
+    margin: 25 10 10 5;
+    background-color: #FF9100;
+    border-radius: 5;
+    font-size: 17;
+    text-transform: capitalize;
+    width: 65%;
+  }
+  .btn-primary:active {
+    opacity: 0.5;
+  }
+  .btn-primary:disabled {
+    opacity: 0.5;
+  }
+  .login-label {
+    horizontal-align: center;
+    color: #A8A8A8;
+    font-size: 16;
+  }
+  .mensaje-eduhome {
+    color: white;
+  }
+  .sign-up-label {
+    margin-bottom: 20;
+  }
+  .bold {
+    color: #000000; 
+  }
+  
+.input-eduhome {
+  background: white;
+  placeholder-color: #777777;
+  color: #17375E;
+  border-radius: 5;
+  height: 37;
+  /*margin-bottom: 5;*/
+  font-size: 15;
+  padding-left: 20;
+}
+
+Span {
+  font-family: "RalewayRegular";
+}

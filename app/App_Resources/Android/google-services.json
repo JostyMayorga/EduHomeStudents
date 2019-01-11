@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "536581481117",
+    "firebase_url": "https://eduhome-abb88.firebaseio.com",
+    "project_id": "eduhome-abb88",
+    "storage_bucket": "eduhome-abb88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536581481117:android:ac15e00df9f94cc5",
+        "android_client_info": {
+          "package_name": "org.nativescript.EduHome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536581481117-3rmnl2f9n6g74gcn4p89ors1cn247e70.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.nativescript.EduHome",
+            "certificate_hash": "f08f3197db9f9c5a5fbf71f39f3593e2964d9a0c"
+          }
+        },
+        {
+          "client_id": "536581481117-aai9nevr3kistoibm3ut2t1tgtammmtg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6bygO6dGC1NyoV1Gmw8lhlTxutiFk9JI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536581481117-aai9nevr3kistoibm3ut2t1tgtammmtg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "536581481117-f2caa4hmqk70qjehd3ng2skj0nf14q54.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.nativescript.EduHome"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

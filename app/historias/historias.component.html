@@ -1,0 +1,346 @@
+  <StackLayout *ngIf="experience >= 100" borderRadius="2">
+    <DockLayout width="100%" height="120" backgroundColor="white" stretchLastChild="false" (tap)="irCapitulo(1)">
+            <StackLayout class="group" orientation="vertical" dock="left" width="25%" backgroundColor="#7197cf">
+                <Image [src]="icoChapter1" class="imgChapter"></Image>           
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="right" width="15%" backgroundColor="white">
+                <Image [src]="icoPlay" class="imgPlay"></Image>      
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="top" width="100%" backgroundColor="white">
+              <Label class="taskName" padding="3" width="100%" height="20%" text="Empieza la escalada" textWrap="true" textAlignment="left"></Label>            
+              <Label class="taskDescription" padding="5" width="100%" height="80%" text="El maestro Rogen ha bajado desde la aldea superior para llevarte en en un viaje a la cima del arbol ancestral para que descubras y aprendas sobre lo que aun no has visto del mundo." textWrap="true" textAlignment="left"></Label>
+            </StackLayout>
+    </DockLayout>
+    <StackLayout class="hr-light m-10"></StackLayout>
+  </StackLayout>
+  <StackLayout *ngIf="experience >= 400" borderRadius="2">
+    <DockLayout width="100%" height="120" backgroundColor="white" stretchLastChild="false" (tap)="irCapitulo(2)">
+            <StackLayout class="group" orientation="vertical" dock="left" width="25%" backgroundColor="#7197cf">
+                <Image [src]="icoChapter2" class="imgChapter"></Image>              
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="right" width="15%" backgroundColor="white">
+                <Image [src]="icoPlay" class="imgPlay"></Image>       
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="top" width="100%" backgroundColor="white">
+              <Label class="taskName" padding="5" width="100%" height="40%" text="Nombre capítulo 2" textWrap="true" textAlignment="left"></Label>            
+              <Label class="taskDescription" padding="5" width="100%" height="60%" text="Descripción capítulo 2" textWrap="true" textAlignment="left"></Label>
+            </StackLayout>
+    </DockLayout>
+    <StackLayout class="hr-light m-10"></StackLayout>
+  </StackLayout>
+  <StackLayout *ngIf="experience >= 1000" borderRadius="2">
+    <DockLayout width="100%" height="120" backgroundColor="white" stretchLastChild="false" (tap)="irCapitulo(3)">
+            <StackLayout class="group" orientation="vertical" dock="left" width="25%" backgroundColor="#7197cf">
+                <Image [src]="icoChapter3" class="imgChapter"></Image>            
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="right" width="15%" backgroundColor="white">
+                <Image [src]="icoPlay" class="imgPlay"></Image>          
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="top" width="100%" backgroundColor="white">
+              <Label class="taskName" padding="5" width="100%" height="40%" text="Nombre capítulo 3" textWrap="true" textAlignment="left"></Label>            
+              <Label class="taskDescription" padding="5" width="100%" height="60%" text="Descripción capítulo 3" textWrap="true" textAlignment="left"></Label>
+            </StackLayout>
+    </DockLayout>
+    <StackLayout class="hr-light m-10"></StackLayout>
+  </StackLayout>
+  <StackLayout *ngIf="experience >= 2000" borderRadius="2">
+    <DockLayout width="100%" height="120" backgroundColor="white" stretchLastChild="false" (tap)="irCapitulo(4)">
+            <StackLayout class="group" orientation="vertical" dock="left" width="25%" backgroundColor="#7197cf">
+                <Image [src]="icoChapter4" class="imgChapter"></Image>              
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="right" width="15%" backgroundColor="white">
+                <Image [src]="icoPlay" class="imgPlay"></Image>         
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="top" width="100%" backgroundColor="white">
+              <Label class="taskName" padding="5" width="100%" height="40%" text="Nombre capítulo 4" textWrap="true" textAlignment="left"></Label>            
+              <Label class="taskDescription" padding="5" width="100%" height="60%" text="Descripción capítulo 4" textWrap="true" textAlignment="left"></Label>
+            </StackLayout>
+    </DockLayout>
+    <StackLayout class="hr-light m-10"></StackLayout>
+  </StackLayout>
+  <StackLayout *ngIf="experience >= 3500" borderRadius="2">
+    <DockLayout width="100%" height="120" backgroundColor="white" stretchLastChild="false" (tap)="irCapitulo(5)">
+            <StackLayout class="group" orientation="vertical" dock="left" width="25%" backgroundColor="#7197cf">
+                <Image [src]="icoChapter5" class="imgChapter"></Image>             
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="right" width="15%" backgroundColor="white">
+                <Image [src]="icoPlay" class="imgPlay"></Image>         
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="top" width="100%" backgroundColor="white">
+              <Label class="taskName" padding="5" width="100%" height="40%" text="Nombre capítulo 5" textWrap="true" textAlignment="left"></Label>            
+              <Label class="taskDescription" padding="5" width="100%" height="60%" text="Descripción capítulo 5" textWrap="true" textAlignment="left"></Label>
+            </StackLayout>
+    </DockLayout>
+    <StackLayout class="hr-light m-10"></StackLayout>
+  </StackLayout>
+  <StackLayout *ngIf="experience < 3500" borderRadius="2">
+        <DockLayout width="100%" height="60" backgroundColor="white" stretchLastChild="false">
+                <StackLayout class="group" orientation="vertical" dock="left" width="25%" backgroundColor="white">
+                    <Image [src]="icoLock" class="imgLock"></Image>             
+                </StackLayout>
+                <StackLayout class="group" orientation="vertical" dock="top" width="100%" backgroundColor="white">
+                        <GridLayout [columns]="columns" class="progressbar">
+                                <StackLayout col="0" class="progressbar-value"></StackLayout>
+                        </GridLayout>
+                        <Label textAlignment="center">
+                            <FormattedString>
+                                <Span text="Experiencia necesaria: "></Span>
+                                <Span [text]="faltante"></Span>
+                            </FormattedString>
+                        </Label>
+                </StackLayout>
+        </DockLayout>
+        <StackLayout class="hr-light m-10"></StackLayout>
+      </StackLayout>
+
+
+
+  <!--
+  <ScrollView orientation="vertical" sdkExampleTitle sdkToggleNavButton>
+  <StackLayout *ngIf="experience >= 0 && experience < 100" borderRadius="2" height="300">
+    <label class="titleInfo" text="No puedes ver nada" textWrap="true"></label>
+    <StackLayout class="hr-light m-10"></StackLayout>
+    <Label>
+            <FormattedString>
+                <Span text="Faltante: " color="#006600" ></Span>
+                <Span [text]="faltante"></Span>
+            </FormattedString>
+    </Label>
+  </StackLayout>
+  <StackLayout *ngIf="experience >= 100 && experience < 400" borderRadius="2">
+    <DockLayout width="100%" height="120" backgroundColor="white" stretchLastChild="false">
+            <StackLayout class="group" orientation="vertical" dock="left" width="20%" backgroundColor="lightblue">
+                <Label class="" width="100%" height="20%" text="Capítulo:" textWrap="true" textAlignment="center"></Label>
+                <Label class="" width="100%" height="80%" text="1" textWrap="true" textAlignment="center"></Label>             
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="right" width="20%" backgroundColor="white">
+                <Label class="" width="100%" height="50%" text="Ver" textWrap="true" textAlignment="center" color="green"></Label>         
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="top" width="100%" backgroundColor="white">
+              <Label class="taskName" padding="5" width="100%" height="40%" text="Nombre capítulo 1" textWrap="true" textAlignment="left"></Label>            
+              <Label class="taskDescription" padding="5" width="100%" height="60%" text="Descripción capítulo 1" textWrap="true" textAlignment="left"></Label>
+            </StackLayout>
+    </DockLayout>
+    <StackLayout class="hr-light m-10"></StackLayout>
+    <Label>
+            <FormattedString>
+                <Span text="Faltante: " color="#006600" ></Span>
+                <Span [text]="faltante"></Span>
+            </FormattedString>
+    </Label>
+  </StackLayout>
+  <StackLayout *ngIf="experience >= 400 && experience < 1000" borderRadius="2">
+    <DockLayout width="100%" height="120" backgroundColor="white" stretchLastChild="false">
+            <StackLayout class="group" orientation="vertical" dock="left" width="20%" backgroundColor="lightblue">
+                <Label class="" width="100%" height="20%" text="Capítulo:" textWrap="true" textAlignment="center"></Label>
+                <Label class="" width="100%" height="80%" text="1" textWrap="true" textAlignment="center"></Label>             
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="right" width="20%" backgroundColor="white">
+                <Label class="" width="100%" height="50%" text="Ver" textWrap="true" textAlignment="center" color="green"></Label>         
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="top" width="100%" backgroundColor="white">
+              <Label class="taskName" padding="5" width="100%" height="40%" text="Nombre capítulo 1" textWrap="true" textAlignment="left"></Label>            
+              <Label class="taskDescription" padding="5" width="100%" height="60%" text="Descripción capítulo 1" textWrap="true" textAlignment="left"></Label>
+            </StackLayout>
+    </DockLayout>
+    <DockLayout width="100%" height="120" backgroundColor="white" stretchLastChild="false">
+            <StackLayout class="group" orientation="vertical" dock="left" width="20%" backgroundColor="lightblue">
+                <Label class="" width="100%" height="20%" text="Capítulo:" textWrap="true" textAlignment="center"></Label>
+                <Label class="" width="100%" height="80%" text="2" textWrap="true" textAlignment="center"></Label>             
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="right" width="20%" backgroundColor="white">
+                <Label class="" width="100%" height="50%" text="Ver" textWrap="true" textAlignment="center" color="green"></Label>         
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="top" width="100%" backgroundColor="white">
+              <Label class="taskName" padding="5" width="100%" height="40%" text="Nombre capítulo 2" textWrap="true" textAlignment="left"></Label>            
+              <Label class="taskDescription" padding="5" width="100%" height="60%" text="Descripción capítulo 2" textWrap="true" textAlignment="left"></Label>
+            </StackLayout>
+    </DockLayout>
+    <StackLayout class="hr-light m-10"></StackLayout>
+    <Label>
+            <FormattedString>
+                <Span text="Faltante: " color="#006600" ></Span>
+                <Span [text]="faltante"></Span>
+            </FormattedString>
+    </Label>
+  </StackLayout>
+  <StackLayout *ngIf="experience >= 1000 && experience < 2000" borderRadius="2">
+    <DockLayout width="100%" height="120" backgroundColor="white" stretchLastChild="false">
+            <StackLayout class="group" orientation="vertical" dock="left" width="20%" backgroundColor="lightblue">
+                <Label class="" width="100%" height="20%" text="Capítulo:" textWrap="true" textAlignment="center"></Label>
+                <Label class="" width="100%" height="80%" text="1" textWrap="true" textAlignment="center"></Label>             
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="right" width="20%" backgroundColor="white">
+                <Label class="" width="100%" height="50%" text="Ver" textWrap="true" textAlignment="center" color="green"></Label>         
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="top" width="100%" backgroundColor="white">
+              <Label class="taskName" padding="5" width="100%" height="40%" text="Nombre capítulo 1" textWrap="true" textAlignment="left"></Label>            
+              <Label class="taskDescription" padding="5" width="100%" height="60%" text="Descripción capítulo 1" textWrap="true" textAlignment="left"></Label>
+            </StackLayout>
+    </DockLayout>
+    <DockLayout width="100%" height="120" backgroundColor="white" stretchLastChild="false">
+            <StackLayout class="group" orientation="vertical" dock="left" width="20%" backgroundColor="lightblue">
+                <Label class="" width="100%" height="20%" text="Capítulo:" textWrap="true" textAlignment="center"></Label>
+                <Label class="" width="100%" height="80%" text="2" textWrap="true" textAlignment="center"></Label>             
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="right" width="20%" backgroundColor="white">
+                <Label class="" width="100%" height="50%" text="Ver" textWrap="true" textAlignment="center" color="green"></Label>         
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="top" width="100%" backgroundColor="white">
+              <Label class="taskName" padding="5" width="100%" height="40%" text="Nombre capítulo 2" textWrap="true" textAlignment="left"></Label>            
+              <Label class="taskDescription" padding="5" width="100%" height="60%" text="Descripción capítulo 2" textWrap="true" textAlignment="left"></Label>
+            </StackLayout>
+    </DockLayout>
+    <DockLayout width="100%" height="120" backgroundColor="white" stretchLastChild="false">
+            <StackLayout class="group" orientation="vertical" dock="left" width="20%" backgroundColor="lightblue">
+                <Label class="" width="100%" height="20%" text="Capítulo:" textWrap="true" textAlignment="center"></Label>
+                <Label class="" width="100%" height="80%" text="3" textWrap="true" textAlignment="center"></Label>             
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="right" width="20%" backgroundColor="white">
+                <Label class="" width="100%" height="50%" text="Ver" textWrap="true" textAlignment="center" color="green"></Label>         
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="top" width="100%" backgroundColor="white">
+              <Label class="taskName" padding="5" width="100%" height="40%" text="Nombre capítulo 3" textWrap="true" textAlignment="left"></Label>            
+              <Label class="taskDescription" padding="5" width="100%" height="60%" text="Descripción capítulo 3" textWrap="true" textAlignment="left"></Label>
+            </StackLayout>
+    </DockLayout>
+    <StackLayout class="hr-light m-10"></StackLayout>
+    <Label>
+            <FormattedString>
+                <Span text="Faltante: " color="#006600" ></Span>
+                <Span [text]="faltante"></Span>
+            </FormattedString>
+    </Label>
+  </StackLayout>
+  <StackLayout *ngIf="experience >= 2000 && experience < 3500" borderRadius="2">
+    <DockLayout width="100%" height="120" backgroundColor="white" stretchLastChild="false">
+            <StackLayout class="group" orientation="vertical" dock="left" width="20%" backgroundColor="lightblue">
+                <Label class="" width="100%" height="20%" text="Capítulo:" textWrap="true" textAlignment="center"></Label>
+                <Label class="" width="100%" height="80%" text="1" textWrap="true" textAlignment="center"></Label>             
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="right" width="20%" backgroundColor="white">
+                <Label class="" width="100%" height="50%" text="Ver" textWrap="true" textAlignment="center" color="green"></Label>         
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="top" width="100%" backgroundColor="white">
+              <Label class="taskName" padding="5" width="100%" height="40%" text="Nombre capítulo 1" textWrap="true" textAlignment="left"></Label>            
+              <Label class="taskDescription" padding="5" width="100%" height="60%" text="Descripción capítulo 1" textWrap="true" textAlignment="left"></Label>
+            </StackLayout>
+    </DockLayout>
+    <DockLayout width="100%" height="120" backgroundColor="white" stretchLastChild="false">
+            <StackLayout class="group" orientation="vertical" dock="left" width="20%" backgroundColor="lightblue">
+                <Label class="" width="100%" height="20%" text="Capítulo:" textWrap="true" textAlignment="center"></Label>
+                <Label class="" width="100%" height="80%" text="2" textWrap="true" textAlignment="center"></Label>             
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="right" width="20%" backgroundColor="white">
+                <Label class="" width="100%" height="50%" text="Ver" textWrap="true" textAlignment="center" color="green"></Label>         
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="top" width="100%" backgroundColor="white">
+              <Label class="taskName" padding="5" width="100%" height="40%" text="Nombre capítulo 2" textWrap="true" textAlignment="left"></Label>            
+              <Label class="taskDescription" padding="5" width="100%" height="60%" text="Descripción capítulo 2" textWrap="true" textAlignment="left"></Label>
+            </StackLayout>
+    </DockLayout>
+    <DockLayout width="100%" height="120" backgroundColor="white" stretchLastChild="false">
+            <StackLayout class="group" orientation="vertical" dock="left" width="20%" backgroundColor="lightblue">
+                <Label class="" width="100%" height="20%" text="Capítulo:" textWrap="true" textAlignment="center"></Label>
+                <Label class="" width="100%" height="80%" text="3" textWrap="true" textAlignment="center"></Label>             
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="right" width="20%" backgroundColor="white">
+                <Label class="" width="100%" height="50%" text="Ver" textWrap="true" textAlignment="center" color="green"></Label>         
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="top" width="100%" backgroundColor="white">
+              <Label class="taskName" padding="5" width="100%" height="40%" text="Nombre capítulo 3" textWrap="true" textAlignment="left"></Label>            
+              <Label class="taskDescription" padding="5" width="100%" height="60%" text="Descripción capítulo 3" textWrap="true" textAlignment="left"></Label>
+            </StackLayout>
+    </DockLayout>
+    <DockLayout width="100%" height="120" backgroundColor="white" stretchLastChild="false">
+            <StackLayout class="group" orientation="vertical" dock="left" width="20%" backgroundColor="lightblue">
+                <Label class="" width="100%" height="20%" text="Capítulo:" textWrap="true" textAlignment="center"></Label>
+                <Label class="" width="100%" height="80%" text="4" textWrap="true" textAlignment="center"></Label>             
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="right" width="20%" backgroundColor="white">
+                <Label class="" width="100%" height="50%" text="Ver" textWrap="true" textAlignment="center" color="green"></Label>         
+            </StackLayout>
+            <StackLayout class="group" orientation="vertical" dock="top" width="100%" backgroundColor="white">
+              <Label class="taskName" padding="5" width="100%" height="40%" text="Nombre capítulo 4" textWrap="true" textAlignment="left"></Label>            
+              <Label class="taskDescription" padding="5" width="100%" height="60%" text="Descripción capítulo 4" textWrap="true" textAlignment="left"></Label>
+            </StackLayout>
+    </DockLayout>
+    <StackLayout class="hr-light m-10"></StackLayout>
+    <Label>
+            <FormattedString>
+                <Span text="Faltante: " color="#006600" ></Span>
+                <Span [text]="faltante"></Span>
+            </FormattedString>
+    </Label>
+  </StackLayout>
+  <StackLayout *ngIf="experience >= 3500" borderRadius="2">
+        <DockLayout width="100%" height="120" backgroundColor="white" stretchLastChild="false">
+                <StackLayout class="group" orientation="vertical" dock="left" width="20%" backgroundColor="lightblue">
+                    <Label class="" width="100%" height="20%" text="Capítulo:" textWrap="true" textAlignment="center"></Label>
+                    <Label class="" width="100%" height="80%" text="1" textWrap="true" textAlignment="center"></Label>             
+                </StackLayout>
+                <StackLayout class="group" orientation="vertical" dock="right" width="20%" backgroundColor="white">
+                    <Label class="" width="100%" height="50%" text="Ver" textWrap="true" textAlignment="center" color="green"></Label>         
+                </StackLayout>
+                <StackLayout class="group" orientation="vertical" dock="top" width="100%" backgroundColor="white">
+                  <Label class="taskName" padding="5" width="100%" height="40%" text="Nombre capítulo 1" textWrap="true" textAlignment="left"></Label>            
+                  <Label class="taskDescription" padding="5" width="100%" height="60%" text="Descripción capítulo 1" textWrap="true" textAlignment="left"></Label>
+                </StackLayout>
+        </DockLayout>
+        <DockLayout width="100%" height="120" backgroundColor="white" stretchLastChild="false">
+                <StackLayout class="group" orientation="vertical" dock="left" width="20%" backgroundColor="lightblue">
+                    <Label class="" width="100%" height="20%" text="Capítulo:" textWrap="true" textAlignment="center"></Label>
+                    <Label class="" width="100%" height="80%" text="2" textWrap="true" textAlignment="center"></Label>             
+                </StackLayout>
+                <StackLayout class="group" orientation="vertical" dock="right" width="20%" backgroundColor="white">
+                    <Label class="" width="100%" height="50%" text="Ver" textWrap="true" textAlignment="center" color="green"></Label>         
+                </StackLayout>
+                <StackLayout class="group" orientation="vertical" dock="top" width="100%" backgroundColor="white">
+                  <Label class="taskName" padding="5" width="100%" height="40%" text="Nombre capítulo 2" textWrap="true" textAlignment="left"></Label>            
+                  <Label class="taskDescription" padding="5" width="100%" height="60%" text="Descripción capítulo 2" textWrap="true" textAlignment="left"></Label>
+                </StackLayout>
+        </DockLayout>
+        <DockLayout width="100%" height="120" backgroundColor="white" stretchLastChild="false">
+                <StackLayout class="group" orientation="vertical" dock="left" width="20%" backgroundColor="lightblue">
+                    <Label class="" width="100%" height="20%" text="Capítulo:" textWrap="true" textAlignment="center"></Label>
+                    <Label class="" width="100%" height="80%" text="3" textWrap="true" textAlignment="center"></Label>             
+                </StackLayout>
+                <StackLayout class="group" orientation="vertical" dock="right" width="20%" backgroundColor="white">
+                    <Label class="" width="100%" height="50%" text="Ver" textWrap="true" textAlignment="center" color="green"></Label>         
+                </StackLayout>
+                <StackLayout class="group" orientation="vertical" dock="top" width="100%" backgroundColor="white">
+                  <Label class="taskName" padding="5" width="100%" height="40%" text="Nombre capítulo 3" textWrap="true" textAlignment="left"></Label>            
+                  <Label class="taskDescription" padding="5" width="100%" height="60%" text="Descripción capítulo 3" textWrap="true" textAlignment="left"></Label>
+                </StackLayout>
+        </DockLayout>
+        <DockLayout width="100%" height="120" backgroundColor="white" stretchLastChild="false">
+                <StackLayout class="group" orientation="vertical" dock="left" width="20%" backgroundColor="lightblue">
+                    <Label class="" width="100%" height="20%" text="Capítulo:" textWrap="true" textAlignment="center"></Label>
+                    <Label class="" width="100%" height="80%" text="4" textWrap="true" textAlignment="center"></Label>             
+                </StackLayout>
+                <StackLayout class="group" orientation="vertical" dock="right" width="20%" backgroundColor="white">
+                    <Label class="" width="100%" height="50%" text="Ver" textWrap="true" textAlignment="center" color="green"></Label>         
+                </StackLayout>
+                <StackLayout class="group" orientation="vertical" dock="top" width="100%" backgroundColor="white">
+                  <Label class="taskName" padding="5" width="100%" height="40%" text="Nombre capítulo 4" textWrap="true" textAlignment="left"></Label>            
+                  <Label class="taskDescription" padding="5" width="100%" height="60%" text="Descripción capítulo 4" textWrap="true" textAlignment="left"></Label>
+                </StackLayout>
+        </DockLayout>
+        <DockLayout width="100%" height="120" backgroundColor="white" stretchLastChild="false">
+                <StackLayout class="group" orientation="vertical" dock="left" width="20%" backgroundColor="lightblue">
+                    <Label class="" width="100%" height="20%" text="Capítulo:" textWrap="true" textAlignment="center"></Label>
+                    <Label class="" width="100%" height="80%" text="5" textWrap="true" textAlignment="center"></Label>             
+                </StackLayout>
+                <StackLayout class="group" orientation="vertical" dock="right" width="20%" backgroundColor="white">
+                    <Label class="" width="100%" height="50%" text="Ver" textWrap="true" textAlignment="center" color="green"></Label>         
+                </StackLayout>
+                <StackLayout class="group" orientation="vertical" dock="top" width="100%" backgroundColor="white">
+                  <Label class="taskName" padding="5" width="100%" height="40%" text="Nombre capítulo 5" textWrap="true" textAlignment="left"></Label>            
+                  <Label class="taskDescription" padding="5" width="100%" height="60%" text="Descripción capítulo 5" textWrap="true" textAlignment="left"></Label>
+                </StackLayout>
+        </DockLayout>
+
+  </StackLayout>
+</ScrollView>
+
+-->

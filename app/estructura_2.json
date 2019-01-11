@@ -1,0 +1,1000 @@
+{
+  "Chats" : {
+    "-LJbUWk0ftydrGMufEHh" : {
+      "-LJddA__nR4WbAc20VZF" : {
+        "date" : -1534001984163,
+        "from" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+        "message" : "Hola, el dia de mñn me puede atender?",
+        "to" : "-LJbUWk0ftydrGMufEHh"
+      }
+    },
+    "-LJbUWk5ftydrGMufEHh" : {
+      "-LJdeGPsxd5tB-jLpEcX" : {
+        "date" : -1534002270198,
+        "from" : "ULkcfwOT8KUx5YspqUZKncNVCF12",
+        "message" : "Hola, me puede ayudar con el ultimo capitulo visto en clases? Gracias 🤗",
+        "to" : "-LJbUWk5ftydrGMufEHh"
+      },
+      "-LJdmzJfDxQzysW0zKXA" : {
+        "date" : -1534004555597,
+        "from" : "",
+        "message" : "Hola si claro el 2 se lo reviso en clases",
+        "to" : "-LJbUWk5ftydrGMufEHh"
+      },
+      "-LJdnAjlooBonzcp4Shn" : {
+        "date" : -1534004606483,
+        "from" : "ULkcfwOT8KUx5YspqUZKncNVCF12",
+        "message" : "gracias",
+        "to" : "-LJbUWk5ftydrGMufEHh"
+      }
+    },
+    "-LJbUWk6ftydrGMufEHh" : {
+      "-LJiUo30ResKcytyJvH4" : {
+        "date" : -1534083415454,
+        "from" : "ULkcfwOT8KUx5YspqUZKncNVCF12",
+        "message" : "Hola",
+        "to" : "-LJbUWk6ftydrGMufEHh"
+      },
+      "-LJiUrLZtMDInd8BaC7U" : {
+        "date" : -1534083428928,
+        "from" : "ULkcfwOT8KUx5YspqUZKncNVCF12",
+        "message" : "El cuaderno al dia📚",
+        "to" : "-LJbUWk6ftydrGMufEHh"
+      },
+      "-LJiUsiVKdlLo-OcizVt" : {
+        "date" : -1534083434557,
+        "from" : "ULkcfwOT8KUx5YspqUZKncNVCF12",
+        "message" : "debe ser firmado?",
+        "to" : "-LJbUWk6ftydrGMufEHh"
+      },
+      "-LJiVTRE2pTCxD2qfS-s" : {
+        "date" : -1534083589036,
+        "from" : "",
+        "message" : "Hola",
+        "to" : "-LJbUWk6ftydrGMufEHh"
+      },
+      "-LJiVYWi1AT05D91aD0m" : {
+        "date" : -1534083609867,
+        "from" : "",
+        "message" : "Si debe ser firmado",
+        "to" : "-LJbUWk6ftydrGMufEHh"
+      }
+    },
+    "-LJbUWk7ftydrGMufEHh" : {
+      "-LJiUivWD0vceZGXDcd1" : {
+        "date" : -1534083394428,
+        "from" : "ULkcfwOT8KUx5YspqUZKncNVCF12",
+        "message" : "Hola Me gustaria saber que materiales hay que llevar",
+        "to" : "-LJbUWk7ftydrGMufEHh"
+      }
+    },
+    "-LJbUWk8ftydrGMufEHh" : {
+      "-LJdcFYOmRhwNmGD6UVt" : {
+        "date" : -1534001742352,
+        "from" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+        "message" : "Hola, me gustaría saber cuando es la entrega de notas",
+        "to" : "-LJbUWk8ftydrGMufEHh"
+      }
+    },
+    "-LJbUWk9ftydrGMufEHh" : {
+      "-LJdd6GmC1UQSCTtN93X" : {
+        "date" : -1534001966512,
+        "from" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+        "message" : "Hola, la tarea del libro no esta clara",
+        "to" : "-LJbUWk9ftydrGMufEHh"
+      },
+      "-LJiVD9qqhq2axHL1vR1" : {
+        "date" : -1534083522387,
+        "from" : "",
+        "message" : "Hola",
+        "to" : "-LJbUWk9ftydrGMufEHh"
+      },
+      "-LJiVJBZ3dEX5XTkTvZx" : {
+        "date" : -1534083547074,
+        "from" : "",
+        "message" : "Deben realizar el capitulo 5",
+        "to" : "-LJbUWk9ftydrGMufEHh"
+      },
+      "-LJiVkSHmSMXRpYZSGED" : {
+        "date" : -1534083662831,
+        "from" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+        "message" : "Muchas gracias 😄",
+        "to" : "-LJbUWk9ftydrGMufEHh"
+      },
+      "-LKX8LHOUMNhFMxHLsN3" : {
+        "date" : -1534949941851,
+        "from" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+        "message" : "hola profe",
+        "to" : "-LJbUWk9ftydrGMufEHh"
+      }
+    }
+  },
+  "cantidadTareasCurso" : [ {
+    "cantidad" : 7,
+    "id" : 1
+  }, {
+    "cantidad" : 5,
+    "id" : 2
+  }, {
+    "cantidad" : 2,
+    "id" : 3
+  }, {
+    "cantidad" : 1,
+    "id" : 4
+  }, {
+    "cantidad" : 1,
+    "id" : 5
+  }, {
+    "cantidad" : 1,
+    "id" : 6
+  } ],
+  "lista" : {
+    "2" : {
+      "-LKVBIBW-lUM9OcMZXhw" : {
+        "fecha" : 1534917161104,
+        "lista" : [ {
+          "apellidos" : "Gimenez Acosta",
+          "asistencia" : true,
+          "id" : "ULkcfwOT8KUx5YspqUZKncNVCF12",
+          "nombres" : "José Ricardo",
+          "pos" : 0
+        }, {
+          "apellidos" : "Valarezo Paz",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Andrea Doménica",
+          "pos" : 1
+        }, {
+          "apellidos" : "Díaz Núñez",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Juan Manuel",
+          "pos" : 2
+        }, {
+          "apellidos" : "Elizalde Herrera",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Jorge Armando",
+          "pos" : 3
+        }, {
+          "apellidos" : "Espinosa Hernández",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Delia",
+          "pos" : 4
+        }, {
+          "apellidos" : "Figueroa Salmorán",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Norma Nelia",
+          "pos" : 5
+        }, {
+          "apellidos" : "Fuentes Mena",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Carlos Porfirio",
+          "pos" : 6
+        }, {
+          "apellidos" : "Galaviz Ramírez",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Alba Lorenia",
+          "pos" : 7
+        }, {
+          "apellidos" : "García García",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Mario Alberto",
+          "pos" : 8
+        }, {
+          "apellidos" : "García García",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Mario Alberto",
+          "pos" : 9
+        }, {
+          "apellidos" : "Bermúdez Manrique",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "José Antonio",
+          "pos" : 10
+        }, {
+          "apellidos" : "Castañeda Pérez",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Marisol",
+          "pos" : 11
+        }, {
+          "apellidos" : "Cantú Garza",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Nicéforo",
+          "pos" : 12
+        }, {
+          "apellidos" : "Camarillo Palafox",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Dante Adrián",
+          "pos" : 13
+        }, {
+          "apellidos" : "Bacab Pech",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Guillermo",
+          "pos" : 14
+        }, {
+          "apellidos" : "Ayala Jiménez",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Sandra Walkyria",
+          "pos" : 15
+        } ]
+      },
+      "-LKXp3-yNiWwcEhSwggR" : {
+        "fecha" : 1534961401056,
+        "lista" : [ {
+          "apellidos" : "Gimenez Acosta",
+          "asistencia" : true,
+          "id" : "ULkcfwOT8KUx5YspqUZKncNVCF12",
+          "nombres" : "José Ricardo",
+          "pos" : 0
+        }, {
+          "apellidos" : "Valarezo Paz",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Andrea Doménica",
+          "pos" : 1
+        }, {
+          "apellidos" : "Díaz Núñez",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Juan Manuel",
+          "pos" : 2
+        }, {
+          "apellidos" : "Elizalde Herrera",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Jorge Armando",
+          "pos" : 3
+        }, {
+          "apellidos" : "Espinosa Hernández",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Delia",
+          "pos" : 4
+        }, {
+          "apellidos" : "Figueroa Salmorán",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Norma Nelia",
+          "pos" : 5
+        }, {
+          "apellidos" : "Fuentes Mena",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Carlos Porfirio",
+          "pos" : 6
+        }, {
+          "apellidos" : "Galaviz Ramírez",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Alba Lorenia",
+          "pos" : 7
+        }, {
+          "apellidos" : "García García",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Mario Alberto",
+          "pos" : 8
+        }, {
+          "apellidos" : "García García",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Mario Alberto",
+          "pos" : 9
+        }, {
+          "apellidos" : "Bermúdez Manrique",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "José Antonio",
+          "pos" : 10
+        }, {
+          "apellidos" : "Castañeda Pérez",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Marisol",
+          "pos" : 11
+        }, {
+          "apellidos" : "Cantú Garza",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Nicéforo",
+          "pos" : 12
+        }, {
+          "apellidos" : "Camarillo Palafox",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Dante Adrián",
+          "pos" : 13
+        }, {
+          "apellidos" : "Bacab Pech",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Guillermo",
+          "pos" : 14
+        }, {
+          "apellidos" : "Ayala Jiménez",
+          "asistencia" : true,
+          "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+          "nombres" : "Sandra Walkyria",
+          "pos" : 15
+        } ]
+      }
+    }
+  },
+
+  "listado" : [ {
+    "apellidos" : "Gimenez Acosta",
+    "foto" : "http://www.quo.es/var/quo/storage/images/ser-humano/son-los-profesores-de-matematicas-una-especie-en-extincion/1280438-1-esl-ES/profesores-de-matematicas-son-una-especie-en-extincion_full_landscape.jpg",
+    "id" : "ULkcfwOT8KUx5YspqUZKncNVCF12",
+    "idChat" : "-LJbUWk5ftydrGMufEHh",
+    "nombres" : "José Ricardo"
+  }, {
+    "apellidos" : "Valarezo Paz",
+    "foto" : "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg",
+    "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+    "idChat" : "-LJbUWk6ftydrGMufEHh",
+    "nombres" : "Andrea Doménica"
+  }, {
+    "apellidos" : "Díaz Núñez",
+    "foto" : "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg",
+    "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+    "idChat" : "-LJbUWk6ftydrGMufEHh",
+    "nombres" : "Juan Manuel"
+  }, {
+    "apellidos" : "Elizalde Herrera",
+    "foto" : "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg",
+    "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+    "idChat" : "-LJbUWk6ftydrGMufEHh",
+    "nombres" : "Jorge Armando"
+  }, {
+    "apellidos" : "Espinosa Hernández",
+    "foto" : "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg",
+    "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+    "idChat" : "-LJbUWk6ftydrGMufEHh",
+    "nombres" : "Delia"
+  }, {
+    "apellidos" : "Figueroa Salmorán",
+    "foto" : "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg",
+    "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+    "idChat" : "-LJbUWk6ftydrGMufEHh",
+    "nombres" : "Norma Nelia"
+  }, {
+    "apellidos" : "Fuentes Mena",
+    "foto" : "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg",
+    "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+    "idChat" : "-LJbUWk6ftydrGMufEHh",
+    "nombres" : "Carlos Porfirio"
+  }, {
+    "apellidos" : "Galaviz Ramírez",
+    "foto" : "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg",
+    "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+    "idChat" : "-LJbUWk6ftydrGMufEHh",
+    "nombres" : "Alba Lorenia"
+  }, {
+    "apellidos" : "García García",
+    "foto" : "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg",
+    "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+    "idChat" : "-LJbUWk6ftydrGMufEHh",
+    "nombres" : "Mario Alberto"
+  }, {
+    "apellidos" : "García García",
+    "foto" : "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg",
+    "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+    "idChat" : "-LJbUWk6ftydrGMufEHh",
+    "nombres" : "Mario Alberto"
+  }, {
+    "apellidos" : "Bermúdez Manrique",
+    "foto" : "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg",
+    "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+    "idChat" : "-LJbUWk6ftydrGMufEHh",
+    "nombres" : "José Antonio"
+  }, {
+    "apellidos" : "Castañeda Pérez",
+    "foto" : "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg",
+    "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+    "idChat" : "-LJbUWk6ftydrGMufEHh",
+    "nombres" : "Marisol"
+  }, {
+    "apellidos" : "Cantú Garza",
+    "foto" : "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg",
+    "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+    "idChat" : "-LJbUWk6ftydrGMufEHh",
+    "nombres" : "Nicéforo"
+  }, {
+    "apellidos" : "Camarillo Palafox",
+    "foto" : "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg",
+    "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+    "idChat" : "-LJbUWk6ftydrGMufEHh",
+    "nombres" : "Dante Adrián"
+  }, {
+    "apellidos" : "Bacab Pech",
+    "foto" : "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg",
+    "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+    "idChat" : "-LJbUWk6ftydrGMufEHh",
+    "nombres" : "Guillermo"
+  }, {
+    "apellidos" : "Ayala Jiménez",
+    "foto" : "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg",
+    "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+    "idChat" : "-LJbUWk6ftydrGMufEHh",
+    "nombres" : "Sandra Walkyria"
+  } ],
+  
+  "listadoProfesores" : {
+    "YMjrVVO04RYCbROVsmRX9F2WXko2" : [ {
+      "apellidos" : "Fernandez Soledispa",
+      "color" : "#5bbcb7",
+      "fotoPerfil" : "https://www.colegioagorabarcelona.es/wp-content/uploads/sites/2/2018/01/Lorenzo-Fresno-agora-is-barcelona.jpg",
+      "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+      "idChat" : "-LJbUWk5ftydrGMufEHh",
+      "idCurso" : "1",
+      "materia" : "Matemáticas",
+      "nombres" : "Joan Vicente"
+    }, {
+      "apellidos" : "Fernandez Soledispa",
+      "color" : "#243a3a",
+      "fotoPerfil" : "https://www.colegioagorabarcelona.es/wp-content/uploads/sites/2/2018/01/Lorenzo-Fresno-agora-is-barcelona.jpg",
+      "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+      "idChat" : "-LJbUWk6ftydrGMufEHh",
+      "idCurso" : "2",
+      "materia" : "Lenguaje y Literatura",
+      "nombres" : "Joan Vicente"
+    }, {
+      "apellidos" : "Fernandez Soledispa",
+      "color" : "#8f05e8",
+      "fotoPerfil" : "https://www.colegioagorabarcelona.es/wp-content/uploads/sites/2/2018/01/Lorenzo-Fresno-agora-is-barcelona.jpg",
+      "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+      "idChat" : "-LJbUWk7ftydrGMufEHh",
+      "idCurso" : "3",
+      "materia" : "Ciencias Naturales",
+      "nombres" : "Joan Vicente"
+    } ],
+    "mnqlgrPCJEYuYBBsZZvQBRnxmUy1" : [ {
+      "apellidos" : "Fernandez Soledispa",
+      "color" : "#5bbcb7",
+      "fotoPerfil" : "http://biendateao.com/wp-content/uploads/2017/03/eduardo-parra.jpg",
+      "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+      "idChat" : "-LJbUWk8ftydrGMufEHh",
+      "idCurso" : "1",
+      "materia" : "Matemáticas",
+      "nombres" : "Joan Vicente"
+    }, {
+      "apellidos" : "Fernandez Soledispa",
+      "color" : "#243a3a",
+      "fotoPerfil" : "http://biendateao.com/wp-content/uploads/2017/03/eduardo-parra.jpg",
+      "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+      "idChat" : "-LJbUWk9ftydrGMufEHh",
+      "idCurso" : "2",
+      "materia" : "Lenguaje y Literatura",
+      "nombres" : "Joan Vicente"
+    }, {
+      "apellidos" : "Burguete García",
+      "color" : "#8f05e8",
+      "fotoPerfil" : "http://www.cronicadelnoa.com.ar/web/wp-content/uploads/2013/12/zottos_carnet.jpg",
+      "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+      "idChat" : "-LJbUWk0ftydrGMufEHh",
+      "idCurso" : "3",
+      "materia" : "Ciencias Naturales",
+      "nombres" : "Miguel Ángel"
+    }, {
+      "apellidos" : "Avendaño Patricia",
+      "color" : "#f7996b",
+      "fotoPerfil" : " http://www.celoriu.com/wp-content/uploads/2011/05/Dolores-Fondo-blanco.jpg",
+      "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+      "idChat" : "-LJbUWk1ftydrGMufEHh",
+      "idCurso" : "4",
+      "materia" : "Emprendimiento",
+      "nombres" : "Cuéllar"
+    }, {
+      "apellidos" : "Avendaño Patricia",
+      "color" : "#aa7100",
+      "fotoPerfil" : " http://www.celoriu.com/wp-content/uploads/2011/05/Dolores-Fondo-blanco.jpg",
+      "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+      "idChat" : "-LJbUWk2ftydrGMufEHh",
+      "idCurso" : "5",
+      "materia" : "Estudios Sociales",
+      "nombres" : "Cuéllar"
+    }, {
+      "apellidos" : "Avendaño Patricia",
+      "color" : "#f9ae06",
+      "fotoPerfil" : " http://www.celoriu.com/wp-content/uploads/2011/05/Dolores-Fondo-blanco.jpg",
+      "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+      "idChat" : "-LJbUWk3ftydrGMufEHh",
+      "idCurso" : "6",
+      "materia" : "Educación Cultural",
+      "nombres" : "Cuéllar"
+    } ]
+  },
+  "listadoRepresentantes" : [ null, [ {
+    "apellidos" : "Gimenez Acosta",
+    "color" : "#5bbcb7",
+    "foto" : "http://www.quo.es/var/quo/storage/images/ser-humano/son-los-profesores-de-matematicas-una-especie-en-extincion/1280438-1-esl-ES/profesores-de-matematicas-son-una-especie-en-extincion_full_landscape.jpg",
+    "id" : "ULkcfwOT8KUx5YspqUZKncNVCF12",
+    "idChat" : "-LJbUWk5ftydrGMufEHh",
+    "idCurso" : "1",
+    "materia" : "Matemáticas",
+    "nombres" : "José Ricardo"
+  }, {
+    "apellidos" : "Valarezo Paz",
+    "color" : "#5bbcb7",
+    "foto" : "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg",
+    "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+    "idChat" : "-LJbUWk8ftydrGMufEHh",
+    "idCurso" : "1",
+    "materia" : "Matemáticas",
+    "nombres" : "Andrea Doménica"
+  } ], [ {
+    "apellidos" : "Gimenez Acosta",
+    "color" : "#243a3a",
+    "foto" : "http://www.quo.es/var/quo/storage/images/ser-humano/son-los-profesores-de-matematicas-una-especie-en-extincion/1280438-1-esl-ES/profesores-de-matematicas-son-una-especie-en-extincion_full_landscape.jpg",
+    "id" : "ULkcfwOT8KUx5YspqUZKncNVCF12",
+    "idChat" : "-LJbUWk6ftydrGMufEHh",
+    "idCurso" : "2",
+    "materia" : "Lenguaje y Literatura",
+    "nombres" : "José Ricardo"
+  }, {
+    "apellidos" : "Valarezo Paz",
+    "color" : "#243a3a",
+    "foto" : "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg",
+    "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+    "idChat" : "-LJbUWk9ftydrGMufEHh",
+    "idCurso" : "2",
+    "materia" : "Lenguaje y Literatura",
+    "nombres" : "Andrea Doménica"
+  } ], [ {
+    "apellidos" : "Gimenez Acosta",
+    "color" : "#8f05e8",
+    "foto" : "http://www.quo.es/var/quo/storage/images/ser-humano/son-los-profesores-de-matematicas-una-especie-en-extincion/1280438-1-esl-ES/profesores-de-matematicas-son-una-especie-en-extincion_full_landscape.jpg",
+    "id" : "ULkcfwOT8KUx5YspqUZKncNVCF12",
+    "idChat" : "-LJbUWk7ftydrGMufEHh",
+    "idCurso" : "3",
+    "materia" : "Ciencias Naturales",
+    "nombres" : "José Ricardo"
+  }, {
+    "apellidos" : "Valarezo Paz",
+    "color" : "#8f05e8",
+    "foto" : "http://parroquiasabanilla.org/psrn/wp-content/uploads/2014/10/familia-400x400.jpg",
+    "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+    "idChat" : "-LJbUWk0ftydrGMufEHh",
+    "idCurso" : "3",
+    "materia" : "Ciencias Naturales",
+    "nombres" : "Andrea Doménica"
+  } ] ],
+  "profesores" : {
+    "NrwKuwDclJT19Nivci91OuaTdoZ2" : {
+      "apellidos" : "Burguete García",
+      "cursos" : [ {
+        "color" : "#5bbcb7",
+        "curso" : "5to 'A'",
+        "id" : 1,
+        "imagen" : "",
+        "nombre" : "Emprendimiento"
+      }, {
+        "color" : "#243a3a",
+        "curso" : "5to 'A'",
+        "id" : 2,
+        "imagen" : "",
+        "nombre" : "Ciencias Sociales"
+      } ],
+      "fotoPerfil" : "http://biendateao.com/wp-content/uploads/2017/03/eduardo-parra.jpg",
+      "id" : "NrwKuwDclJT19Nivci91OuaTdoZ2",
+      "nombres" : "Miguel Ángel"
+    },
+    "mnqlgrPCJEYuYBBsZZvQBRnxmUy1" : {
+      "apellidos" : "Fernandez Soledispa",
+      "cursos" : [ {
+        "color" : "#5bbcb7",
+        "curso" : "5to 'A'",
+        "id" : 1,
+        "imagen" : "",
+        "nombre" : "Matemáticas"
+      }, {
+        "color" : "#243a3a",
+        "curso" : "5to 'A'",
+        "id" : 2,
+        "imagen" : "",
+        "nombre" : "Lenguaje y Literatura"
+      }, {
+        "color" : "#8f05e8",
+        "curso" : "5to 'A'",
+        "id" : 3,
+        "imagen" : "",
+        "nombre" : "Ciencias Naturales"
+      } ],
+      "fotoPerfil" : "https://www.colegioagorabarcelona.es/wp-content/uploads/sites/2/2018/01/Lorenzo-Fresno-agora-is-barcelona.jpg",
+      "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+      "nombres" : "Joan Vicente"
+    }
+  },
+  "representantes" : {
+    "YMjrVVO04RYCbROVsmRX9F2WXko2" : {
+      "apellidos" : "Carrera",
+      "cursos" : [ {
+        "color" : "#5bbcb7",
+        "id" : 1,
+        "imagen" : "",
+        "nombre" : "Matemáticas",
+        "profesor" : {
+          "apellidos" : "Collahuazo Vaca",
+          "nombres" : "Joel Ricardo",
+          "titulo" : "Lcdo"
+        },
+        "tareasID" : [ {
+          "archivoPath" : "",
+          "color" : "#5bbcb7",
+          "descripcion" : "Repasar el ultimo capítulo del libro, revisado en clases",
+          "fechaEntrega" : 1541826000000,
+          "fotoUrl" : "",
+          "id" : 1,
+          "revisado" : false,
+          "titulo" : "Leccion"
+        }, {
+          "archivoPath" : "",
+          "color" : "#5bbcb7",
+          "descripcion" : "Espero los requerimientos mientras me acabo esta taza de cafe ",
+          "fechaEntrega" : 1535346000000,
+          "fotoUrl" : "https://firebasestorage.googleapis.com/v0/b/eduhome-abb88.appspot.com/o/tarea-1534949630132.png?alt=media&token=58070762-2c12-46a2-a034-9f0898f451bd",
+          "id" : 2,
+          "revisado" : false,
+          "titulo" : "traer 100 ejercicios con sus demostraciones logicas "
+        }, {
+          "archivoPath" : "",
+          "color" : "#5bbcb7",
+          "descripcion" : "yo fhak f djdjdjfdg\nf\nf\n\ne\ng\nf\n\ng\nr\nf\n\ng\nr\ne\nw\nq\n\ns\ns\nq\n\nw\nw\ne\nf\ngeg\n\nhwwtmhhmjmhmhsmfmhmh\n\nw\nw\nf\nh\nh\n\nw\nd\nf\nf\ne\nw\nw\nw\n\n2\n2\n1\n1\n1\n1\n1\n\n\ns\nd\n\nd\nx\nc\nc\nc\n\n\n\n\nd\nd\nd\nd\nd\nd\nd\nd\nd\nd\n\nd\nd\nd\nd\nd\nd\nd\n\nd\nd\nd\nd\nd\nd\nd\n\nd\nd\nd\nd\nd\nd\nd\nd\nd\n\nd\nd\nd\nd\nd\n\nd\nd\nd\nd\nd\n",
+          "fechaEntrega" : 1570251600000,
+          "fotoUrl" : "",
+          "id" : 3,
+          "revisado" : false,
+          "titulo" : "!hola"
+        }, {
+          "archivoPath" : "",
+          "color" : "#5bbcb7",
+          "fechaEntrega" : 1535173200000,
+          "fotoUrl" : "https://firebasestorage.googleapis.com/v0/b/eduhome-abb88.appspot.com/o/tarea-1534961710523.png?alt=media&token=d9bf9606-5771-4989-9d3a-95910c07e9f5",
+          "id" : 4,
+          "revisado" : false,
+          "titulo" : "Demo"
+        }, {
+          "archivoPath" : "",
+          "color" : "#5bbcb7",
+          "descripcion" : "test",
+          "fechaEntrega" : 1535086800000,
+          "fotoUrl" : "https://firebasestorage.googleapis.com/v0/b/eduhome-abb88.appspot.com/o/tarea-1534961946423.png?alt=media&token=bb9e651a-7286-4aef-be14-29fffc157dc9",
+          "id" : 5,
+          "revisado" : false,
+          "titulo" : "test"
+        }, {
+          "archivoPath" : "",
+          "color" : "#5bbcb7",
+          "fechaEntrega" : 1535259600000,
+          "fotoUrl" : "https://firebasestorage.googleapis.com/v0/b/eduhome-abb88.appspot.com/o/tarea-1534962302512.png?alt=media&token=19a52b5b-2b69-436f-b954-b43221c834a0",
+          "id" : 6,
+          "revisado" : false,
+          "titulo" : "Mat"
+        }, {
+          "archivoPath" : "",
+          "color" : "#5bbcb7",
+          "descripcion" : "test",
+          "fechaEntrega" : 1535605200000,
+          "fotoUrl" : "",
+          "id" : 7,
+          "revisado" : false,
+          "titulo" : "yest"
+        } ]
+      }, {
+        "color" : "#243a3a",
+        "id" : 2,
+        "imagen" : "",
+        "nombre" : "Lenguaje y Literatura",
+        "profesor" : {
+          "apellidos" : "Santacruz Burgos",
+          "nombres" : "Kevin Rafael",
+          "titulo" : "Lcdo"
+        },
+        "tareasID" : [ {
+          "archivoPath" : "",
+          "color" : "#243a3a",
+          "descripcion" : "Repasar las páginas 20-22 del libro para la lección.",
+          "fechaEntrega" : 1541826000000,
+          "fotoUrl" : "",
+          "id" : 1,
+          "revisado" : false,
+          "titulo" : "Lección proxima clase"
+        }, {
+          "archivoPath" : "",
+          "color" : "#243a3a",
+          "descripcion" : "Traer el cuaderno completo y firmado por el representante",
+          "fechaEntrega" : 1541826000000,
+          "fotoUrl" : "",
+          "id" : 2,
+          "revisado" : false,
+          "titulo" : "Revisión"
+        }, {
+          "archivoPath" : "",
+          "color" : "#243a3a",
+          "descripcion" : "Descripcion",
+          "fechaEntrega" : 1535000400000,
+          "fotoUrl" : "https://firebasestorage.googleapis.com/v0/b/eduhome-abb88.appspot.com/o/tarea-1534917194334.png?alt=media&token=a69d7646-1b2d-45bd-8ffa-0786f5a552c4",
+          "id" : 3,
+          "revisado" : false,
+          "titulo" : "Demo"
+        }, {
+          "archivoPath" : "",
+          "color" : "#243a3a",
+          "fechaEntrega" : 1535691600000,
+          "fotoUrl" : "https://firebasestorage.googleapis.com/v0/b/eduhome-abb88.appspot.com/o/tarea-1534962256806.png?alt=media&token=414527ef-df27-43c8-85d7-75151cadaf18",
+          "id" : 4,
+          "revisado" : false,
+          "titulo" : "data"
+        }, {
+          "archivoPath" : "",
+          "color" : "#243a3a",
+          "descripcion" : "Asd",
+          "fechaEntrega" : 1535691600000,
+          "fotoUrl" : "",
+          "id" : 5,
+          "revisado" : false,
+          "titulo" : "demo"
+        } ]
+      }, {
+        "color" : "#8f05e8",
+        "id" : 3,
+        "imagen" : "",
+        "nombre" : "Ciencias Naturales",
+        "profesor" : {
+          "apellidos" : "Collahuazo Vaca",
+          "nombres" : "Joel Ricardo",
+          "titulo" : "Lcdo"
+        },
+        "tareasID" : [ {
+          "archivoPath" : "",
+          "color" : "#8f05e8",
+          "descripcion" : "Traer los materiales solicitados en clase.",
+          "fechaEntrega" : 1541826000000,
+          "fotoUrl" : "",
+          "id" : 1,
+          "revisado" : false,
+          "titulo" : "Recordatorio"
+        }, {
+          "archivoPath" : "",
+          "color" : "#8f05e8",
+          "descripcion" : "",
+          "fechaEntrega" : 1535691600000,
+          "fotoUrl" : "https://firebasestorage.googleapis.com/v0/b/eduhome-abb88.appspot.com/o/tarea-1534962371094.png?alt=media&token=316ba0bf-1a4e-4c5e-b5d1-cea4537c0301",
+          "id" : 2,
+          "revisado" : false,
+          "titulo" : "test"
+        } ]
+      }, {
+        "color" : "#f7996b",
+        "id" : 4,
+        "imagen" : "",
+        "nombre" : "Emprendimiento",
+        "profesor" : {
+          "apellidos" : "Collahuazo Vaca",
+          "nombres" : "Joel Ricardo",
+          "titulo" : "Lcdo"
+        },
+        "tareasID" : [ {
+          "archivoPath" : "",
+          "color" : "#f7996b",
+          "descripcion" : "Todos los grupos deben traer sus materiales para ralizar el trabajo en la siguiente clase.",
+          "fechaEntrega" : 1541826000000,
+          "fotoUrl" : "",
+          "id" : 1,
+          "revisado" : false,
+          "titulo" : "Trabajo en grupo"
+        } ]
+      } ],
+      "fotoPerfil" : "http://www.edcom.espol.edu.ec/sites/edcom.espol.edu.ec/files/carrera.png",
+      "genero" : "m",
+      "id" : "YMjrVVO04RYCbROVsmRX9F2WXko2",
+      "nombres" : "Diego Carrera"
+    },
+    "mnqlgrPCJEYuYBBsZZvQBRnxmUy1" : {
+      "apellidos" : "Valarezo Paz",
+      "cursos" : [ {
+        "color" : "#5bbcb7",
+        "id" : 1,
+        "imagen" : "",
+        "nombre" : "Matemáticas",
+        "tareasID" : [ {
+          "archivoPath" : "",
+          "color" : "#5bbcb7",
+          "descripcion" : "Repasar el ultimo capítulo del libro, revisado en clases",
+          "fechaEntrega" : 1541826000000,
+          "fotoUrl" : "",
+          "id" : 1,
+          "revisado" : true,
+          "titulo" : "Leccion"
+        }, {
+          "archivoPath" : "",
+          "color" : "#5bbcb7",
+          "descripcion" : "Espero los requerimientos mientras me acabo esta taza de cafe ",
+          "fechaEntrega" : 1535346000000,
+          "fotoUrl" : "https://firebasestorage.googleapis.com/v0/b/eduhome-abb88.appspot.com/o/tarea-1534949630132.png?alt=media&token=58070762-2c12-46a2-a034-9f0898f451bd",
+          "id" : 2,
+          "revisado" : true,
+          "titulo" : "traer 100 ejercicios con sus demostraciones logicas "
+        }, {
+          "archivoPath" : "",
+          "color" : "#5bbcb7",
+          "descripcion" : "yo fhak f djdjdjfdg\nf\nf\n\ne\ng\nf\n\ng\nr\nf\n\ng\nr\ne\nw\nq\n\ns\ns\nq\n\nw\nw\ne\nf\ngeg\n\nhwwtmhhmjmhmhsmfmhmh\n\nw\nw\nf\nh\nh\n\nw\nd\nf\nf\ne\nw\nw\nw\n\n2\n2\n1\n1\n1\n1\n1\n\n\ns\nd\n\nd\nx\nc\nc\nc\n\n\n\n\nd\nd\nd\nd\nd\nd\nd\nd\nd\nd\n\nd\nd\nd\nd\nd\nd\nd\n\nd\nd\nd\nd\nd\nd\nd\n\nd\nd\nd\nd\nd\nd\nd\nd\nd\n\nd\nd\nd\nd\nd\n\nd\nd\nd\nd\nd\n",
+          "fechaEntrega" : 1570251600000,
+          "fotoUrl" : "",
+          "id" : 3,
+          "revisado" : true,
+          "titulo" : "!hola"
+        }, {
+          "archivoPath" : "",
+          "color" : "#5bbcb7",
+          "fechaEntrega" : 1535173200000,
+          "fotoUrl" : "https://firebasestorage.googleapis.com/v0/b/eduhome-abb88.appspot.com/o/tarea-1534961710523.png?alt=media&token=d9bf9606-5771-4989-9d3a-95910c07e9f5",
+          "id" : 4,
+          "revisado" : false,
+          "titulo" : "Demo"
+        }, {
+          "archivoPath" : "",
+          "color" : "#5bbcb7",
+          "descripcion" : "test",
+          "fechaEntrega" : 1535086800000,
+          "fotoUrl" : "https://firebasestorage.googleapis.com/v0/b/eduhome-abb88.appspot.com/o/tarea-1534961946423.png?alt=media&token=bb9e651a-7286-4aef-be14-29fffc157dc9",
+          "id" : 5,
+          "revisado" : false,
+          "titulo" : "test"
+        }, {
+          "archivoPath" : "",
+          "color" : "#5bbcb7",
+          "fechaEntrega" : 1535259600000,
+          "fotoUrl" : "https://firebasestorage.googleapis.com/v0/b/eduhome-abb88.appspot.com/o/tarea-1534962302512.png?alt=media&token=19a52b5b-2b69-436f-b954-b43221c834a0",
+          "id" : 6,
+          "revisado" : false,
+          "titulo" : "Mat"
+        }, {
+          "archivoPath" : "",
+          "color" : "#5bbcb7",
+          "descripcion" : "Cumplir con loa ejercicios dictados en clases.",
+          "fechaEntrega" : 1535691600000,
+          "fotoUrl" : "",
+          "id" : 7,
+          "revisado" : true,
+          "titulo" : "yest"
+        } ]
+      }, {
+        "color" : "#243a3a",
+        "id" : 2,
+        "imagen" : "",
+        "nombre" : "Lenguaje y Literatura",
+        "tareasID" : [ {
+          "archivoPath" : "",
+          "color" : "#243a3a",
+          "descripcion" : "Repasar las páginas 20-22 del libro para la lección.",
+          "fechaEntrega" : 1541826000000,
+          "fotoUrl" : "",
+          "id" : 1,
+          "revisado" : false,
+          "titulo" : "Lección proxima clase"
+        }, {
+          "archivoPath" : "",
+          "color" : "#243a3a",
+          "descripcion" : "Traer el cuaderno completo y firmado por el representante",
+          "fechaEntrega" : 1541826000000,
+          "fotoUrl" : "",
+          "id" : 2,
+          "revisado" : false,
+          "titulo" : "Revisión"
+        }, {
+          "archivoPath" : "",
+          "color" : "#243a3a",
+          "descripcion" : "Descripcion",
+          "fechaEntrega" : 1535000400000,
+          "fotoUrl" : "https://firebasestorage.googleapis.com/v0/b/eduhome-abb88.appspot.com/o/tarea-1534917194334.png?alt=media&token=a69d7646-1b2d-45bd-8ffa-0786f5a552c4",
+          "id" : 3,
+          "revisado" : false,
+          "titulo" : "Demo"
+        }, {
+          "archivoPath" : "",
+          "color" : "#243a3a",
+          "fechaEntrega" : 1535691600000,
+          "fotoUrl" : "https://firebasestorage.googleapis.com/v0/b/eduhome-abb88.appspot.com/o/tarea-1534962256806.png?alt=media&token=414527ef-df27-43c8-85d7-75151cadaf18",
+          "id" : 4,
+          "revisado" : false,
+          "titulo" : "data"
+        }, {
+          "archivoPath" : "",
+          "color" : "#243a3a",
+          "descripcion" : "Asd",
+          "fechaEntrega" : 1535691600000,
+          "fotoUrl" : "",
+          "id" : 5,
+          "revisado" : false,
+          "titulo" : "demo"
+        } ]
+      }, {
+        "color" : "#8f05e8",
+        "id" : 3,
+        "imagen" : "",
+        "nombre" : "Ciencias Naturales",
+        "tareasID" : [ {
+          "archivoPath" : "",
+          "color" : "#8f05e8",
+          "descripcion" : "Traer los materiales solicitados en clase.",
+          "fechaEntrega" : 1541825000000,
+          "fotoUrl" : "",
+          "id" : 1,
+          "revisado" : false,
+          "titulo" : "Recordatorio"
+        }, {
+          "archivoPath" : "",
+          "color" : "#8f05e8",
+          "descripcion" : "",
+          "fechaEntrega" : 1535691600000,
+          "fotoUrl" : "https://firebasestorage.googleapis.com/v0/b/eduhome-abb88.appspot.com/o/tarea-1534962371094.png?alt=media&token=316ba0bf-1a4e-4c5e-b5d1-cea4537c0301",
+          "id" : 2,
+          "revisado" : false,
+          "titulo" : "test"
+        } ]
+      }, {
+        "color" : "#f7996b",
+        "id" : 4,
+        "imagen" : "",
+        "nombre" : "Emprendimiento",
+        "tareasID" : [ {
+          "archivoPath" : "",
+          "color" : "#f7996b",
+          "descripcion" : "Todos los grupos deben traer sus materiales para ralizar el trabajo en la siguiente clase.",
+          "fechaEntrega" : 1541820000000,
+          "fotoUrl" : "",
+          "id" : 1,
+          "revisado" : false,
+          "titulo" : "Trabajo en grupo"
+        } ]
+      }, {
+        "color" : "#aa7100",
+        "id" : 5,
+        "imagen" : "",
+        "nombre" : "Estudios Sociales",
+        "tareasID" : [ {
+          "archivoPath" : "",
+          "color" : "#aa7100",
+          "descripcion" : "Revisión del libro para la siguiente clase.",
+          "fechaEntrega" : 1541810000000,
+          "fotoUrl" : "",
+          "id" : 1,
+          "revisado" : true,
+          "titulo" : "Revisión del libro"
+        } ]
+      }, {
+        "color" : "#f9ae06",
+        "id" : 6,
+        "imagen" : "",
+        "nombre" : "Educación Cultural",
+        "tareasID" : [ {
+          "archivoPath" : "",
+          "color" : "#f9ae06",
+          "descripcion" : "Revisión de los materiales para la practica.",
+          "fechaEntrega" : 1541710000000,
+          "fotoUrl" : "",
+          "id" : 1,
+          "revisado" : false,
+          "titulo" : "Trabajo de manualidades"
+        } ]
+      } ],
+      "fotoPerfil" : "http://umc.minedu.gob.pe/wp-content/uploads/2017/07/image_nota.jpg",
+      "genero" : "f",
+      "id" : "mnqlgrPCJEYuYBBsZZvQBRnxmUy1",
+      "nombres" : "Andrea Doménica"
+    }
+  }
+}

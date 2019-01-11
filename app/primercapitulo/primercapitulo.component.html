@@ -1,0 +1,15 @@
+<Label text="Comienza la escalada"></Label>
+<GridLayout columns="auto, *" rows="auto, *" width="100%" height="100%" >
+        <Image *ngIf="i!=3" row="0" col="0" [src]="image" width="100%" class="imgHistoria" (tap)="avanzar(1)"></Image>
+        <Image *ngIf="i==3" row="0" col="0" [src]="image" width="100%" class="imgHistoria"></Image>
+        <Label *ngIf="i!=3" [text]="desc" row="0" col="0" class="txtHistoria"></Label>
+        <GridLayout *ngIf="i==3" columns="auto, *" rows="auto, *" width="100%" class="btnsHistoria" row="0" col="0" borderRadius="2">
+                <Button  row="0" col="0" text="Opción 1" (tap)="avanzar(1)" class="btn btn-primary btnHistoria" style="font-size: 18;"></Button>
+                <Button  row="0" col="1" text="Opción 2" (tap)="avanzar(3)" class="btn btn-primary btnHistoria" style="font-size: 18;"></Button>
+        </GridLayout>
+</GridLayout>
+
+
+
+
+

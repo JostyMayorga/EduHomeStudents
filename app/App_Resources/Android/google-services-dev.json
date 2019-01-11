@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "536581481117",
+    "firebase_url": "https://eduhome-abb88.firebaseio.com",
+    "project_id": "eduhome-abb88",
+    "storage_bucket": "eduhome-abb88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536581481117:android:ac15e00df9f94cc5",
+        "android_client_info": {
+          "package_name": "org.nativescript.EduHome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536581481117-aai9nevr3kistoibm3ut2t1tgtammmtg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6bygO6dGC1NyoV1Gmw8lhlTxutiFk9JI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,19 @@
+<ActionBar [title]="curso.nombre" [backgroundColor]="curso.color" *ngIf="curso">
+    <!--<NavigationButton text="Go Back" ios.position="left" android.systemIcon="ic_menu_back" (tap)="regresar()"></NavigationButton>-->
+    
+    <NavigationButton text="go back" icon="res://arrow_b" ios.position="left" (tap)="regresar()"></NavigationButton>
+</ActionBar>
+
+<GridLayout rows="*" class="form p-10">
+    <ListView [items]="listaNombres" class="list-group" row="0">
+        <ng-template let-r="item">
+            <GridLayout class="list-group-item" rows="auto" columns="*, auto" [nsRouterLink]="['/chat', r.idChat, r.idCurso, r.nombres, r.apellidos, r.id]">
+
+                <Label col="0" text="{{ r.nombres + ' ' + r.apellidos }}" textWrap="true" class="nombre-maestro" verticalAlignment="center"></Label>
+                
+                <Label col="1" text="&#xf003;" textWrap="true" class="fa" horizontalAlignment="center" verticalAlignment="center" fontSize="20"></Label>
+            
+            </GridLayout>
+        </ng-template>
+    </ListView>
+</GridLayout>

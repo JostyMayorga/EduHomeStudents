@@ -1,0 +1,13 @@
+
+    <StackLayout orientation="horizontal" backgroundColor="#F59100" height="45" color="white">
+
+
+            <Image class="icotabs" width="15%" (tap)="irInfo()" src="~/images/info.png"></Image>
+            <Label class="infotabs" width="35%" (tap)="irInfo()" text="Information" textWrap="true" textAlignment="center"></Label>
+            <Image class="icotabs" width="15%" (tap)="irAchievements()" src="~/images/achievements.png"></Image>            
+            <Label class="infotabs" width="35%" (tap)="irAchievements()" text="Achievements" textWrap="true" textAlignment="center"></Label>            
+    </StackLayout>
+    <StackLayout orientation="vertical">
+        <router-outlet></router-outlet>
+    </StackLayout>
+    <Button row="4" text="Cerrar sesión" (tap)="logout()" class="btn btn-primary raleway" style="font-size: 18;"></Button>

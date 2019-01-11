@@ -1,0 +1,30 @@
+
+
+<!--<ActionBar title="Kevin Santacruz 2">
+                <ActionItem tap="onShare"
+                    ios.systemIcon="9" ios.position="left"
+                    android.systemIcon="ic_menu_share" android.position="actionBar"></ActionItem>
+                <ActionItem tap="onDelete"
+                    ios.systemIcon="16" ios.position="right"
+                    text="delete" android.position="popup"></ActionItem>
+              </ActionBar>
+        -->
+<ActionBar title="Tareas" class="action-bar">
+</ActionBar>
+<!--<DockLayout width="100%" height="47px" backgroundColor="#17375e"></DockLayout>-->
+<ScrollView>
+    <FlexboxLayout flexWrap="wrap" alignItems="center" justifyContent="space-around" class="">
+                <CardView width="95%" elevation="10" radius="10" ripple="true" *ngFor="let tarea of tareas" class="m-t-10 m-b-10">
+                        <StackLayout width="100%" height="135"  class="">
+                                <FlexboxLayout height="105" alignItems="flex-start" [backgroundColor]="tarea.color">
+                                        <label class="m-10" width="100%" [text]="tarea.descripcion" color="white" fontSize="17" textWrap="true"></label>
+                                </FlexboxLayout>
+                                <!--<DockLayout height="5" [backgroundColor]="tarea.color"></DockLayout>-->
+                                <FlexboxLayout width="90%" justifyContent="space-between" alignItems="center" height="30" style="">
+                                        <Label class="page-icon fa" text="&#xf1ea;" fontSize="18" fontWeight="bold"></Label>
+                                        <Label class="page-icon fa" text="{{ tarea.fechaEntrega.getTime() | date: 'fullDate':'-0500':'es-EC' | titlecase }}" fontSize="16" fontWeight="bold"></Label>
+                                </FlexboxLayout>
+                        </StackLayout>
+                </CardView>
+    </FlexboxLayout>
+</ScrollView>

@@ -1,0 +1,111 @@
+.foto-perfil {
+    width:60; height:60; border-radius:50%;
+}
+.nombre-representate {
+    color: white;
+    font-size: 15;
+}
+.estado {
+    color: #f7bb43;
+    font-size: 12;
+    font-weight: bold;
+}
+ActionBar {
+    background-color:  #ff9100;
+    color: white;
+    padding: 0 0 0 0;
+    height: 15%;
+}
+
+DockLayout {
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 90;
+}
+
+.text-white label{
+    color:white;
+    font-size: 20;
+}
+.text-white {
+    text-align: left;
+}
+
+.img-personaje {
+    margin-left: 50;
+    height: 80%;
+}
+
+.btn-primary {
+    background-color: #FF9100;
+    border-radius: 5;
+    text-transform: capitalize;
+}
+
+.naturales {
+    background-color: #a2c54c;
+    color: white;
+}
+
+.matematicas {
+    background-color:#7197cf;
+    color: white;
+}
+
+.sociales {
+    background-color:#f0638a;
+    color: white; 
+}
+
+.lenguaje {
+    background-color:#b460a6;
+    color: white;
+}
+
+.arte {
+    background-color:#f99f3f;
+    color: black;
+}
+
+.fisica {
+    background-color:#f5c92f;
+    color: black;
+}
+
+.progressbar {
+    height: 20;
+    margin-left: -20;
+    margin-top:10;
+    width: 90%;
+    border-radius: 2;
+    background: #c8ea88;
+    border-color: white;
+    border-width: 1;
+}
+.progressbar-value {
+    background: #92bf4e;
+}
+.progressbar2 {
+    height: 20;
+    margin-left: -20;
+    margin-top:10;
+    width: 90%;
+    border-radius: 2;
+    background: #96b3cc;
+    border-color: white;
+    border-width: 1;
+}
+.progressbar-value2 {
+    background: #477bbb;
+}
+
+.taskName{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 30%;
+    font-size: 18;
+}
+
+.time{
+    margin: 10%;
+    width: 60%
+}

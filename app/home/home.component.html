@@ -1,0 +1,94 @@
+<!--<ActionBar class="action-bar">
+    <Label class="action-bar-title" text="Home"></Label>
+</ActionBar>-->
+
+<!--<GridLayout class="page page-content" orientation="vertical">
+               <ListView [items]="items" class="list-group">
+                    <ng-template let-item="item">
+                            <Label [text]="item.image" class="list-group-item"></Label>
+                    </ng-template>
+                </ListView>
+</GridLayout>-->
+
+
+<!--<ListView [items]="items" row="0" class="small-spacing" [class.visible]="listLoaded" scrollDirection="Horizontal">
+        <ng-template let-item="item">
+          <CardView class="cardStyle" margin="10" elevation="40" radius="1" >
+            <GridLayout rows="10,30,30,220, auto, auto" columns="10,40, *, 30,10">
+              <Image src="res://logo" stretch="aspectFit" verticalAlignment="stretch" col="1" row="1" rowSpan="2"></Image>
+              <Label class="createdBy text-left" horizontalAlignment="left" text="Prof" row="1" col="2" textWrap="true"></Label>
+              <Label class="createdOn text-left" horizontalAlignment="left" text="Cod. Materia: {{item.id}}" row="2" col="2"></Label>
+              <Image [src]="item.image" stretch="aspectFit" colSpan="3" col="1" row="3"></Image>
+              <Label horizontalAlignment="left" text="Materia: {{item.name}}" colSpan="3" row="4" textWrap="true" col="1"></Label>
+              <Label  horizontalAlignment="left" [text]="item.image" textWrap="true" col="1" row="5" colSpan="3"></Label>
+            </GridLayout>
+          </CardView>
+        </ng-template>
+    </ListView>-->
+    <!--<FlexboxLayout [items]="items" row="0" class="small-spacing" [class.visible]="listLoaded" scrollDirection="Horizontal">
+            <ng-template let-item="item">
+                    <CardView class="cardStyle" margin="10" elevation="40" radius="1" >
+                      <GridLayout rows="10,30,30,220, auto, auto" columns="10,40, *, 30,10">
+                        <Image src="res://logo" stretch="aspectFit" verticalAlignment="stretch" col="1" row="1" rowSpan="2"></Image>
+                        <Label class="createdBy text-left" horizontalAlignment="left" text="Prof" row="1" col="2" textWrap="true"></Label>
+                        <Label class="createdOn text-left" horizontalAlignment="left" text="Cod. Materia: {{item.id}}" row="2" col="2"></Label>
+                        <Image [src]="item.image" stretch="aspectFit" colSpan="3" col="1" row="3"></Image>
+                        <Label horizontalAlignment="left" text="Materia: {{item.name}}" colSpan="3" row="4" textWrap="true" col="1"></Label>
+                        <Label  horizontalAlignment="left" [text]="item.image" textWrap="true" col="1" row="5" colSpan="3"></Label>
+                      </GridLayout>
+                    </CardView>
+                  </ng-template>
+    </FlexboxLayout>-->
+    <!--<ListView [items]="items" row="0" class="small-spacing" [class.visible]="listLoaded" scrollDirection="Horizontal">
+                <ng-template let-item="item">
+                  <CardView class="cardStyle" margin="10" elevation="40" radius="1" >
+                    <GridLayout rows="10,30,30,220, auto, auto" columns="10,40, *, 30,10">
+                      <Image src="res://logo" stretch="aspectFit" verticalAlignment="stretch" col="1" row="1" rowSpan="2"></Image>
+                      <Label class="createdBy text-left" horizontalAlignment="left" text="Prof" row="1" col="2" textWrap="true"></Label>
+                      <Label class="createdOn text-left" horizontalAlignment="left" text="Cod. Materia: {{item.id}}" row="2" col="2"></Label>
+                      <Image [src]="item.image" stretch="aspectFit" colSpan="3" col="1" row="3"></Image>
+                      <Label horizontalAlignment="left" text="Materia: {{item.name}}" colSpan="3" row="4" textWrap="true" col="1"></Label>
+                      <Label  horizontalAlignment="left" [text]="item.image" textWrap="true" col="1" row="5" colSpan="3"></Label>
+                    </GridLayout>
+                  </CardView>
+                </ng-template>
+            </ListView>-->
+            <!--<DockLayout width="100%" height="23" backgroundColor="#00252a"></DockLayout>
+-->
+
+<!--<DockLayout width="100%" height="47px" backgroundColor="#17375e"></DockLayout>-->
+<!--<FlexboxLayout height="80" justifyContent="space-around" alignItems="center" class="p-10" backgroundColor="#17375e">
+  <Image src="https://static.guiainfantil.com/pictures//4432-4-regalos-caseros-para-papa-en-el-dia-del-padre-de-ecuador.jpg" class="foto-perfil"></Image>
+  <StackLayout>
+          <Label text="Kevin Rafael Santacruz Burgos" class="nombre-representate"></Label>
+          <Label text="Bienvenido" class="estado"></Label>
+  </StackLayout>      
+</FlexboxLayout>-->
+
+
+
+
+
+
+
+<ListView [items]="tareas" height="100%" (itemTap)="onItemTap($event)" class="list-group">
+    <ng-template let-task="item" let-i="index" let-tareas.id="tarea" let-odd="odd" let-even="even">
+        <DockLayout backgroundColor="white" stretchLastChild="false">
+            <StackLayout (tap)="openModal(task.id, task.name, task.description)" [class]="task.id_class_subject" orientation="vertical" dock="left" width="20%">
+                    <Image [src]="icoTime" class="time"></Image>           
+                <Label class="" text="Days Left" textWrap="true" textAlignment="center"></Label>
+            </StackLayout>
+            <StackLayout (tap)="openModal(task.id, task.name, task.description)" class="group" orientation="vertical" dock="right" width="20%" backgroundColor="white">
+                    <Image *ngIf="task.id_class_subject=='matematicas'" [src]="icoMatematicas" class="icoSubject"></Image>
+                    <Image *ngIf="task.id_class_subject=='naturales'" [src]="icoNaturales" class="icoSubject"></Image>
+                    <Image *ngIf="task.id_class_subject=='lenguaje'" [src]="icoLenguaje" class="icoSubject"></Image>
+                    <Image *ngIf="task.id_class_subject=='sociales'" [src]="icoSociales" class="icoSubject"></Image>
+                    <Image *ngIf="task.id_class_subject=='arte'" [src]="icoMatematicas" class="icoSubject"></Image>
+                    <Image *ngIf="task.id_class_subject=='fisica'" [src]="icoMatematicas" class="icoSubject"></Image>         
+            </StackLayout>
+            <StackLayout (tap)="openModal(task.id, task.name, task.description)" class="group" orientation="vertical" dock="top" width="100%" backgroundColor="white">
+                <Label class="taskName" [text]="task.name" textWrap="true" textAlignment="center"></Label>            
+            </StackLayout>
+        </DockLayout>  
+    </ng-template>
+</ListView>

@@ -1,0 +1,56 @@
+<ActionBar title="" class="action-bar">
+        <StackLayout orientation="horizontal" (tap)="irPerfil()">
+        <Image [src]="icoAvatar" class="foto-perfil" stretch="fill"></Image>
+        <StackLayout class="m-l-15" width="80%">
+                <Label [text]="name" class="nombre-representate"></Label>
+              <GridLayout [columns]="columnsExp" class="progressbar2">
+                  <StackLayout col="0" class="progressbar-value2"></StackLayout>
+              </GridLayout>
+              <GridLayout [columns]="columns" class="progressbar">
+                  <StackLayout col="0" class="progressbar-value"></StackLayout>
+              </GridLayout>
+        </StackLayout>
+        </StackLayout>
+  </ActionBar>
+
+<GridLayout rows="*, auto">
+    <StackLayout row="0" orientation="vertical">
+        <router-outlet></router-outlet>
+    </StackLayout>
+    <!--<BottomBar verticalAlignment="center" row="1" [items]="items" [hide]="hidden" [titleState]="titleState" (loaded)="tabLoaded($event)" (tabSelected)="tabSelected($event)" [inactiveColor]="inactiveColor" [accentColor]="accentColor" colored="true">
+        </BottomBar>-->
+    <StackLayout row="1" orientation="horizontal" backgroundColor="#FF9100" horizontalAligment="center" verticalAligment="center" height="55" color="white" class="p-t-5 menu">
+        <StackLayout width="33%" horizontalAligment="center" verticalAligment="center" (tap)="irHome()">
+            <Image [src]="icoTask_" width="25" height="25"></Image>
+            <Label text="Tasks" textWrap="true" textAlignment="center" [color]="icoTaskTint_"></Label>            
+        </StackLayout>
+
+        <StackLayout width="33%" horizontalAligment="center" verticalAligment="center" (tap)="irHistorias()">
+            <Image [src]="icoStory_" width="25" height="25"></Image>
+            <Label text="Story" textWrap="true" textAlignment="center" [color]="icoStoryTint_"></Label>            
+        </StackLayout>
+
+        <StackLayout width="33%" horizontalAligment="center" verticalAligment="center" (tap)="irPerfil()">
+            <Image [src]="icoProfile_" width="25" height="25"></Image>
+            <Label text="Profile" textWrap="true" textAlignment="center" [color]="icoProfileTint_"></Label>
+        </StackLayout>
+        <!--<Button textWrap="true" width="33%" textAlignment="center">
+            <FormattedString>
+                <Span text="&#xf02d;" fontFamily="FontAwesome"></Span>
+                <Span text="Materias"></Span>
+            </FormattedString>
+        </Button>-->
+        <!--<Button textWrap="true" width="33%" textAlignment="center">
+            <FormattedString>
+                <Span text="&#xf0e6;" fontFamily="FontAwesome"></Span>
+                <Span text="All Cocktails"></Span>
+            </FormattedString>
+        </Button>
+        <Button textWrap="true" width="33%" textAlignment="center">
+            <FormattedString>
+                <Span text="&#xf007;" fontFamily="FontAwesome"></Span>
+                <Span text="Perfil"></Span>
+            </FormattedString>
+        </Button>-->
+    </StackLayout>
+</GridLayout>

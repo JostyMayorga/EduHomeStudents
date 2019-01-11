@@ -1,0 +1,150 @@
+
+<!--<ActionBar title="Details" class="action-bar"></ActionBar>
+<FlexboxLayout flexDirection="column" class="page">
+    <FlexboxLayout class="m-15">
+        <Label class="h2" [text]="curso.id + '. '"></Label>
+        <Label class="h2" [text]="curso.nombre"></Label>
+    </FlexboxLayout>
+    <Label class="h4" [text]="curso.cantidadTareas"></Label>
+</FlexboxLayout>-->
+
+<!--<ActionBar class="action-bar">
+    <Label class="action-bar-title" text="Home"></Label>
+</ActionBar>-->
+
+<!--<GridLayout class="page page-content" orientation="vertical">
+               <ListView [items]="items" class="list-group">
+                    <ng-template let-item="item">
+                            <Label [text]="item.image" class="list-group-item"></Label>
+                    </ng-template>
+                </ListView>
+</GridLayout>-->
+
+
+<!--<ListView [items]="items" row="0" class="small-spacing" [class.visible]="listLoaded" scrollDirection="Horizontal">
+        <ng-template let-item="item">
+          <CardView class="cardStyle" margin="10" elevation="40" radius="1" >
+            <GridLayout rows="10,30,30,220, auto, auto" columns="10,40, *, 30,10">
+              <Image src="res://logo" stretch="aspectFit" verticalAlignment="stretch" col="1" row="1" rowSpan="2"></Image>
+              <Label class="createdBy text-left" horizontalAlignment="left" text="Prof" row="1" col="2" textWrap="true"></Label>
+              <Label class="createdOn text-left" horizontalAlignment="left" text="Cod. Materia: {{item.id}}" row="2" col="2"></Label>
+              <Image [src]="item.image" stretch="aspectFit" colSpan="3" col="1" row="3"></Image>
+              <Label horizontalAlignment="left" text="Materia: {{item.name}}" colSpan="3" row="4" textWrap="true" col="1"></Label>
+              <Label  horizontalAlignment="left" [text]="item.image" textWrap="true" col="1" row="5" colSpan="3"></Label>
+            </GridLayout>
+          </CardView>
+        </ng-template>
+    </ListView>-->
+    <!--<FlexboxLayout [items]="items" row="0" class="small-spacing" [class.visible]="listLoaded" scrollDirection="Horizontal">
+            <ng-template let-item="item">
+                    <CardView class="cardStyle" margin="10" elevation="40" radius="1" >
+                      <GridLayout rows="10,30,30,220, auto, auto" columns="10,40, *, 30,10">
+                        <Image src="res://logo" stretch="aspectFit" verticalAlignment="stretch" col="1" row="1" rowSpan="2"></Image>
+                        <Label class="createdBy text-left" horizontalAlignment="left" text="Prof" row="1" col="2" textWrap="true"></Label>
+                        <Label class="createdOn text-left" horizontalAlignment="left" text="Cod. Materia: {{item.id}}" row="2" col="2"></Label>
+                        <Image [src]="item.image" stretch="aspectFit" colSpan="3" col="1" row="3"></Image>
+                        <Label horizontalAlignment="left" text="Materia: {{item.name}}" colSpan="3" row="4" textWrap="true" col="1"></Label>
+                        <Label  horizontalAlignment="left" [text]="item.image" textWrap="true" col="1" row="5" colSpan="3"></Label>
+                      </GridLayout>
+                    </CardView>
+                  </ng-template>
+    </FlexboxLayout>-->
+    <!--<ListView [items]="items" row="0" class="small-spacing" [class.visible]="listLoaded" scrollDirection="Horizontal">
+                <ng-template let-item="item">
+                  <CardView class="cardStyle" margin="10" elevation="40" radius="1" >
+                    <GridLayout rows="10,30,30,220, auto, auto" columns="10,40, *, 30,10">
+                      <Image src="res://logo" stretch="aspectFit" verticalAlignment="stretch" col="1" row="1" rowSpan="2"></Image>
+                      <Label class="createdBy text-left" horizontalAlignment="left" text="Prof" row="1" col="2" textWrap="true"></Label>
+                      <Label class="createdOn text-left" horizontalAlignment="left" text="Cod. Materia: {{item.id}}" row="2" col="2"></Label>
+                      <Image [src]="item.image" stretch="aspectFit" colSpan="3" col="1" row="3"></Image>
+                      <Label horizontalAlignment="left" text="Materia: {{item.name}}" colSpan="3" row="4" textWrap="true" col="1"></Label>
+                      <Label  horizontalAlignment="left" [text]="item.image" textWrap="true" col="1" row="5" colSpan="3"></Label>
+                    </GridLayout>
+                  </CardView>
+                </ng-template>
+            </ListView>-->
+            <!--<DockLayout width="100%" height="23" backgroundColor="#00252a"></DockLayout>
+-->
+
+<!--<DockLayout width="100%" height="47px" backgroundColor="#17375e"></DockLayout>-->
+<!--<FlexboxLayout height="80" justifyContent="space-around" alignItems="center" class="p-10" backgroundColor="#17375e">
+  <Image src="https://static.guiainfantil.com/pictures//4432-4-regalos-caseros-para-papa-en-el-dia-del-padre-de-ecuador.jpg" class="foto-perfil"></Image>
+  <StackLayout>
+          <Label text="Kevin Rafael Santacruz Burgos" class="nombre-representate"></Label>
+          <Label text="Bienvenido" class="estado"></Label>
+  </StackLayout>      
+</FlexboxLayout>-->
+
+<!--<ActionBar title="Hola" [backgroundColor]="curso.color">    
+      <FlexboxLayout height="80" justifyContent="space-around" alignItems="center" class="" >
+          <StackLayout class="m-l-10">
+                  <Label text="Kevin Rafael Santacruz Burgos" class="nombre-representate"></Label>
+                  <Label text="Bienvenido" class="estado"></Label>
+          </StackLayout>
+        </FlexboxLayout>
+    </ActionBar>-->
+    <ActionBar [title]="curso.nombre" [backgroundColor]="curso.color" *ngIf="curso">
+            <NavigationButton text="go back" icon="res://arrow_b" ios.position="left" (tap)="regresar()"></NavigationButton>
+          </ActionBar>
+
+    <ScrollView>
+        <FlexboxLayout flexWrap="wrap" alignItems="center" justifyContent="space-around" class="">
+
+          <StackLayout width="96%" class="m-t-10 m-b-10" *ngFor="let tarea of listaTareas_">
+              <FlexboxLayout width="100%" alignItems="center" class="">
+                  <Label class="page-icon fa" text="&#xf073;"></Label>
+                  <Label text="Entrega: {{ tarea.fechaEntrega | date: 'fullDate':'-0500':'es-EC' | titlecase }}" textWrap="true" class="m-l-5"></Label>
+              </FlexboxLayout>
+  
+              <Label text="{{ tarea.titulo}}" textWrap="true" fontWeight="bold" fontSize="19" class="m-t-5"></Label>
+
+              <!--<Label *ngIf="tarea.fotoUrl" text="&#xf1c5;" textWrap="true" fontSize="17" class="m-t-5 m-b-5"></Label>-->
+
+              <Label *ngIf="tarea.descripcion" [text]="tarea.descripcion" textWrap="true" fontSize="17" class="m-t-5 m-b-5"></Label>
+
+              <Image [src]="tarea.fotoUrl" *ngIf="tarea.fotoUrl" (tap)="openGallery(tarea.id)" ></Image>
+
+              <!--<Label *ngIf="tarea.fotoUrl" text="&#xf1c5; Ver Imagen" textWrap="true" fontSize="17" class="fa" style="color:steelblue;"></Label>-->
+
+              <!--<Image *ngIf="imagepath" width="100" height="100" [src]="imagepath"></Image>-->
+              
+              <!--<Button (tap)="openGallery(tarea.id)" text="abrir imagen"></Button>-->
+              <Button text="Listo" (tap)="listo(tarea.id)" style="background-color: #17375E;color:white;text-transform: capitalize;font-size: 18;"></Button>
+            </StackLayout>
+
+
+
+            <!--<StackLayout width="96%" class="m-t-10 m-b-10">
+                <FlexboxLayout width="100%" alignItems="center" class="">
+                    <Label class="page-icon fa" text="&#xf073;"></Label>
+                    <Label text="Enviado el 20/06/2018" textWrap="true" class="m-l-5"></Label>
+                </FlexboxLayout>
+    
+                <Label text="Ejercicios del libro" textWrap="true" fontWeight="bold" fontSize="19" class="m-t-5"></Label>
+    
+                <Label text="Cumplir los deberes 2 y 3 del libro ABC.Revision de la tabla de 4 al 10" textWrap="true" fontSize="17" class="m-t-5 m-b-5"></Label>
+                
+                <Button text="Listo" (tap)="listo" style="background-color: #17375E;color:white;"></Button>
+              </StackLayout>-->
+              <!--<Image *ngIf="cantidadTareas==0" src="~/images/personaje_f.png" dock="right" class="img-personaje" fill="stretch"></Image>-->
+
+              <DockLayout width="100%" height="100%" row="0"  *ngIf="!oculto && cantidadTareas==0">
+      
+                  <!--src="~/images/logo.png"-->
+                  <StackLayout dock="top" class="text-white" verticalAlignment="center" horizontalAlignment="center" *ngIf="!oculto && cantidadTareas==0">
+
+                      
+                      <!--<Label text="Hola! :)" textWrap="true"></Label>-->
+                      <Label text="¡Ya hemos cumplido " textWrap="true"></Label>
+                      <Label text="todas las tareas " textWrap="true"></Label>
+                      <Label text="de esta materia!" textWrap="true"></Label>
+                  </StackLayout>
+            
+                  <Image *ngIf="genero=='f' && !oculto" src="~/images/personaje_f.png" dock="bottom" class="img-personaje" fill="stretch" ></Image>
+
+
+                  <Image *ngIf="genero=='m' && !oculto" src="~/images/personaje_m.png" dock="bottom" class="img-personaje" fill="stretch" ></Image>   
+
+                </DockLayout>
+        </FlexboxLayout>
+    </ScrollView>

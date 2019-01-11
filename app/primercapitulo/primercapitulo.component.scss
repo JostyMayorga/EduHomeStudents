@@ -1,0 +1,86 @@
+.perfil {
+    height: 150;
+    width:150;
+    border-radius:75;
+}
+.perfil-txt {
+    font-size: 18;
+}
+.estado {
+    color: #f7bb43;
+    font-size: 12;
+    font-weight: bold;
+}
+.btn-primary {
+    margin: 25 10 10 5;
+    background-color: #ff9100;
+    border-radius: 5;
+    font-size: 12;
+    width: 65%;
+    text-transform: capitalize;
+  }
+
+  .infotabs {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .icotabs{
+      height: 50px;
+        width:50px;
+    }
+
+
+    .foto-perfil {
+        width:60; height:60; border-radius:50%;
+    }
+    .nombre-representate {
+        color: white;
+        font-size: 15;
+    }
+    .estado {
+        color: #f7bb43;
+        font-size: 12;
+        font-weight: bold;
+    }
+    ActionBar {
+        background-color:  #ff9100;
+        color: white;
+        padding: 0 0 0 0;
+        height: 15%;
+    }
+    
+    DockLayout {
+        background-color: rgba(0, 0, 0, 0.85);
+    }
+    
+    .text-white label{
+        color:white;
+        font-size: 20;
+    }
+    .text-white {
+        text-align: left;
+    }
+    
+    .img-personaje {
+        margin-left: 50;
+        height: 80%;
+    }
+
+    .txtHistoria{
+        color: black;
+        margin-top: 70%;
+        padding: 8;
+
+    }
+    .imgHistoria{
+
+    }
+    .btnsHistoria{
+        margin-top: 70%;
+    }
+
+    .btnHistoria{
+        width: 30%;
+    }
+ 
